@@ -10,5 +10,5 @@ collections:
     label: "products"
     folder: "products/"
     fields:
-      - { name: Title }
+      - { name: title }
       - { label: "beschrijving", name: "body", widget: "markdown" }
