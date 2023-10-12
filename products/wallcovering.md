@@ -4,5 +4,4 @@ layout: product
 permalink: /wallcovering.html/
 Title: Wallcovering
 ---
-
-Uw sign-partner voor maatwerkprojecten
+This is a test
