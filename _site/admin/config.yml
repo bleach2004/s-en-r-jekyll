@@ -6,9 +6,16 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
 media_folder: "assets/img"
 collections:
-  - name: "products"
-    label: "products"
-    folder: "products/"
+  - name: "interieur-signing"
+    label: "Interieur signing"
+    folder: "interieur-signing"
     fields:
-      - { name: Title }
-      - { label: "beschrijving", name: "body", widget: "markdown" }
+      - { name: title }
+      - { label: "Beschrijving", name: "body", widget: "markdown" }
+
+  - name: "exterieur-signing"
+    label: "Exterieur signing"
+    folder: "exterieur-signing"
+    fields:
+      - { name: title }
+      - { label: "Beschrijving", name: "body", widget: "markdown" }
