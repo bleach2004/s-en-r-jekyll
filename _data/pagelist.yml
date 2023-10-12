@@ -1,0 +1,51 @@
+toc:
+  - title: Interieur Signing
+    subfolderitems:
+      - page: Wallcovering
+        url: /wallcovering.html
+      - page: Textielframes
+        url: /textielframes.html
+      - page: Interieurfolie
+        url: /interieurfolie.html
+      - page: Privacy folie
+        url: /privacy-folie.html
+      - page: Meubelpanelen
+        url: /meubelpanelen.html
+      - page: Peesframes
+        url: /peesframes.html
+      - page: Ledframes
+        url: /ledframes.html
+      - page: Foto op textiel
+        url: /foto-op-textiel.html
+      - page: Folieteksten en logo's
+        url: /folieteksten.html
+      - page: Schilderij prints
+        url: /schilderij-prints.html
+      - page: Whiteboards
+        url: /whiteboards.html
+      - page: Wayfinding
+        url: /wayfinding.html
+
+  - title: Exterieur Signing
+    subfolderitems:
+      - page: Gevel- en lichtreclame
+        url: /gevel-en-lichtreclame.html
+      - page: Reclameborden
+        url: /reclameborden.html
+      - page: Raamstikkers
+        url: /raamstikkers.html
+      - page: Bewegwijzering
+        url: /bewegwijzering.html
+      - page: Spandoeken en vlaggen
+        url: /spandoeken-en-vlaggen.html
+      - page: Fleetmarking
+        url: /fleetmarking.html
+
+    # - title: Over ons
+    # -   url: /over-ons.html
+
+    # - page: Nieuws
+    # -   url: /nieuws.html
+
+    # - page: Contact
+    # -   url: /contact.html
