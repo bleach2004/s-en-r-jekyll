@@ -2,6 +2,7 @@
 
 backend:
   name: git-gateway
+  repo: bleach2004/s-en-r-jekyll
   branch: main # Branch to update (optional; defaults to master)
 media_folder: "assets/img"
 collections:
@@ -9,4 +10,5 @@ collections:
     label: "products"
     folder: "products/"
     fields:
-      - { name: Title }
+      - { name: title }
+      - { label: "Body", name: "body", widget: "markdown" }
