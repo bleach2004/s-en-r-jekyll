@@ -3,7 +3,6 @@
 backend:
   name: git-gateway
   repo: bleach2004/s-en-r-jekyll
-  branch: main # Branch to update (optional; defaults to master)
 media_folder: "assets/img"
 collections:
   - name: "interieur-signing"
