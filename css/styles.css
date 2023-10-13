@@ -569,6 +569,7 @@ img.selectie-img {
 
 .carousel-item img {
   height: 240px; /* Adjust the height as needed */
+  object-fit: cover; /* Maintain aspect ratio and cover the area */
 }
 
 .carousel-image {

@@ -1,6 +1,5 @@
 # config.yml
-
-local_backend: true
+publish_mode: editorial_workflow
 
 backend:
   name: git-gateway
@@ -8,6 +7,22 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
 media_folder: "assets/img"
 collections:
+  # - name: "pages"
+  #   label: "pages"
+  #   files:
+  #     [
+  #       { "/pages/contact.md" },
+  #       { "/pages/over-ons.md" },
+  #       { "/pages/nieuws.md" },
+  #     ]
+  #   editor:
+  #     preview: false
+  #   fields:
+  #     - { name: title }
+
+  #     - { label: "Header", name: "header", widget: "string" }
+  #     - { label: "Tagline", name: "tagline", widget: "string" }
+
   - name: "interieur-signing"
     label: "Interieur signing"
     folder: "interieur-signing"
