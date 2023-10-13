@@ -3,12 +3,12 @@
 backend:
   name: git-gateway
   repo: bleach2004/s-en-r-jekyll
-  branch: main # Branch to update (optional; defaults to master)
+  branch: main
 media_folder: "assets/img"
 collections:
   - name: "interieur-signing"
     label: "Interieur signing"
-    folder: "interieur-signing"
+    folder: "pages/interieur-signing"
     fields:
       - { name: title }
       - { label: "Beschrijving", name: "body", widget: "markdown" }
@@ -21,7 +21,7 @@ collections:
 
   - name: "exterieur-signing"
     label: "Exterieur signing"
-    folder: "exterieur-signing"
+    folder: "pages/exterieur-signing"
     fields:
       - { name: title }
       - { label: "Beschrijving", name: "body", widget: "markdown" }
