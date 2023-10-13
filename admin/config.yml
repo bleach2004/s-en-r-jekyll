@@ -1,5 +1,7 @@
 # config.yml
 
+local_backend: true
+
 backend:
   name: git-gateway
   repo: bleach2004/s-en-r-jekyll
@@ -8,9 +10,7 @@ media_folder: "assets/img"
 collections:
   - name: "interieur-signing"
     label: "Interieur signing"
-    folder: "pages/interieur-signing"
-    editor:
-      preview: false
+    folder: "interieur-signing"
     fields:
       - { name: title }
       - { label: "Beschrijving", name: "body", widget: "markdown" }
@@ -23,9 +23,7 @@ collections:
 
   - name: "exterieur-signing"
     label: "Exterieur signing"
-    folder: "pages/exterieur-signing"
-    editor:
-      preview: false
+    folder: "exterieur-signing"
     fields:
       - { name: title }
       - { label: "Beschrijving", name: "body", widget: "markdown" }
