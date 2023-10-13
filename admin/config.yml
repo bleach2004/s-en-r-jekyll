@@ -1,7 +1,5 @@
 # config.yml
 
-local_backend: true
-
 backend:
   name: git-gateway
   repo: bleach2004/s-en-r-jekyll
