@@ -21,13 +21,13 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="{{site.baseurl}}/css/styles.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
   </head>
 
   <body class="page-body body-flex">
     <nav class="navbar navbar-custom navbar-expand-lg navbar-dark">
       <div class="container">
-        <a class="navbar-brand" href="{{site.baseurl}}/index.html">
+        <a class="navbar-brand" href="/index.html">
           <img class="nav-logo" src="../assets/img/logo website wit.svg" />
         </a>
 
@@ -48,7 +48,7 @@
           id="navbarSupportedContent"
         >
           <ul class="navbar-nav navbar-nav-custom mb-2 mb-lg-0">
-            {% for item in site.data.pagelist.toc %}
+            
 
             <li class="nav-item text-nowrap px-3 dropdown">
               <a
@@ -58,30 +58,148 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                {{ item.title }}
+                Interieur Signing
               </a>
               <ul class="dropdown-menu">
-                {% for entry in item.subfolderitems %}
+                
                 <li>
-                  <a class="dropdown-item" href="{{ entry.url }}"
-                    >{{ entry.page }}</a
+                  <a class="dropdown-item" href="/wallcovering.html"
+                    >Wallcovering</a
                   >
                 </li>
-                {% endfor %}
+                
+                <li>
+                  <a class="dropdown-item" href="/textielframes.html"
+                    >Textielframes</a
+                  >
+                </li>
+                
+                <li>
+                  <a class="dropdown-item" href="/interieurfolie.html"
+                    >Interieurfolie</a
+                  >
+                </li>
+                
+                <li>
+                  <a class="dropdown-item" href="/privacy-folie.html"
+                    >Privacy folie</a
+                  >
+                </li>
+                
+                <li>
+                  <a class="dropdown-item" href="/meubelpanelen.html"
+                    >Meubelpanelen</a
+                  >
+                </li>
+                
+                <li>
+                  <a class="dropdown-item" href="/peesframes.html"
+                    >Peesframes</a
+                  >
+                </li>
+                
+                <li>
+                  <a class="dropdown-item" href="/ledframes.html"
+                    >Ledframes</a
+                  >
+                </li>
+                
+                <li>
+                  <a class="dropdown-item" href="/foto-op-textiel.html"
+                    >Foto op textiel</a
+                  >
+                </li>
+                
+                <li>
+                  <a class="dropdown-item" href="/folieteksten.html"
+                    >Folieteksten en logo's</a
+                  >
+                </li>
+                
+                <li>
+                  <a class="dropdown-item" href="/schilderij-prints.html"
+                    >Schilderij prints</a
+                  >
+                </li>
+                
+                <li>
+                  <a class="dropdown-item" href="/whiteboards.html"
+                    >Whiteboards</a
+                  >
+                </li>
+                
+                <li>
+                  <a class="dropdown-item" href="/wayfinding.html"
+                    >Wayfinding</a
+                  >
+                </li>
+                
               </ul>
             </li>
-            {% endfor %}
+            
+
+            <li class="nav-item text-nowrap px-3 dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="Interieursigning.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Exterieur Signing
+              </a>
+              <ul class="dropdown-menu">
+                
+                <li>
+                  <a class="dropdown-item" href="/gevel-en-lichtreclame.html"
+                    >Gevel- en lichtreclame</a
+                  >
+                </li>
+                
+                <li>
+                  <a class="dropdown-item" href="/reclameborden.html"
+                    >Reclameborden</a
+                  >
+                </li>
+                
+                <li>
+                  <a class="dropdown-item" href="/raamstikkers.html"
+                    >Raamstikkers</a
+                  >
+                </li>
+                
+                <li>
+                  <a class="dropdown-item" href="/bewegwijzering.html"
+                    >Bewegwijzering</a
+                  >
+                </li>
+                
+                <li>
+                  <a class="dropdown-item" href="/spandoeken-en-vlaggen.html"
+                    >Spandoeken en vlaggen</a
+                  >
+                </li>
+                
+                <li>
+                  <a class="dropdown-item" href="/fleetmarking.html"
+                    >Fleetmarking</a
+                  >
+                </li>
+                
+              </ul>
+            </li>
+            
 
             <li class="nav-item text-nowrap px-3">
-              <a class="nav-link" href="{{site.baseurl}}/over-ons.html"
+              <a class="nav-link" href="/over-ons.html"
                 >Over ons</a
               >
             </li>
             <li class="nav-item text-nowrap px-3">
-              <a class="nav-link" href="{{site.baseurl}}/nieuws.html">Nieuws</a>
+              <a class="nav-link" href="/nieuws.html">Nieuws</a>
             </li>
             <li class="nav-item text-nowrap px-3">
-              <a class="nav-link" href="{{site.baseurl}}/Contact.html"
+              <a class="nav-link" href="/Contact.html"
                 >Contact</a
               >
             </li>
@@ -99,7 +217,7 @@
             class="col-6 col-lg-2 col-md-4 d-flex mb-4 justify-content-lg-start justify-content-center"
           >
             <div class="selectie-div selectie-img img-column">
-              <a href="{{site.baseurl}}/wallcovering.html">
+              <a href="/wallcovering.html">
                 <img
                   id="wallcovering"
                   class="img-fluid img-thumbnail w-100 selectie-img"
@@ -114,7 +232,7 @@
             class="col-6 col-lg-2 col-md-4 d-flex justify-content-lg-start justify-content-center"
           >
             <div class="selectie-div selectie-img img-column">
-              <a href="{{site.baseurl}}/interieurfolie.html">
+              <a href="/interieurfolie.html">
                 <img
                   id="interieurfolie"
                   class="img-fluid img-thumbnail w-100 selectie-img"
@@ -129,7 +247,7 @@
             class="col-6 col-lg-2 col-md-4 d-flex justify-content-lg-start justify-content-center"
           >
             <div class="selectie-div selectie-img img-column">
-              <a href="{{site.baseurl}}/privacy-folie.html">
+              <a href="/privacy-folie.html">
                 <img
                   id="privacyfolie"
                   class="img-fluid img-thumbnail w-100 selectie-img"
@@ -144,7 +262,7 @@
             class="col-6 col-lg-2 col-md-4 d-flex justify-content-lg-start justify-content-center"
           >
             <div class="selectie-div selectie-img img-column">
-              <a href="{{site.baseurl}}/meubelpanelen.html">
+              <a href="/meubelpanelen.html">
                 <img
                   id="meubelpanelen"
                   class="img-fluid img-thumbnail w-100 selectie-img"
@@ -162,7 +280,7 @@
             class="col-6 col-lg-2 col-md-4 d-flex mb-4 justify-content-lg-start justify-content-center"
           >
             <div class="selectie-div selectie-img img-column">
-              <a href="{{site.baseurl}}/peesframes.html">
+              <a href="/peesframes.html">
                 <img
                   id="peesframes"
                   class="img-fluid img-thumbnail w-100 selectie-img"
@@ -177,7 +295,7 @@
             class="col-6 col-lg-2 col-md-4 d-flex mb-4 justify-content-lg-start justify-content-center"
           >
             <div class="selectie-div selectie-img img-column">
-              <a href="{{site.baseurl}}/ledframes.html">
+              <a href="/ledframes.html">
                 <img
                   id="ledframes"
                   class="img-fluid img-thumbnail w-100 selectie-img"
@@ -192,7 +310,7 @@
             class="col-6 col-lg-2 col-md-4 d-flex mb-4 justify-content-lg-start justify-content-center"
           >
             <div class="selectie-div selectie-img img-column">
-              <a href="{{site.baseurl}}/foto-op-textiel.html">
+              <a href="/foto-op-textiel.html">
                 <img
                   id="textielfoto"
                   class="img-fluid img-thumbnail w-100 selectie-img"
@@ -207,7 +325,7 @@
             class="col-6 col-lg-2 col-md-4 d-flex mb-4 justify-content-lg-start justify-content-center"
           >
             <div class="selectie-div selectie-img img-column">
-              <a href="{{site.baseurl}}/folieteksten.html">
+              <a href="/folieteksten.html">
                 <img
                   id="folieteksten"
                   class="img-fluid img-thumbnail w-100 selectie-img"
@@ -223,7 +341,7 @@
             class="col-6 col-lg-2 col-md-4 d-flex mb-4 justify-content-lg-start justify-content-center"
           >
             <div class="selectie-div selectie-img img-column">
-              <a href="{{site.baseurl}}/schilderij-prints.html">
+              <a href="/schilderij-prints.html">
                 <img
                   id="schilderijprints"
                   class="img-fluid img-thumbnail w-100 selectie-img"
@@ -238,7 +356,7 @@
             class="col-6 col-lg-2 col-md-4 d-flex mb-4 justify-content-lg-start justify-content-center"
           >
             <div class="selectie-div selectie-img img-column">
-              <a href="{{site.baseurl}}/whiteboards.html">
+              <a href="/whiteboards.html">
                 <img
                   id="whiteboards"
                   class="img-fluid img-thumbnail w-100 selectie-img"
@@ -253,7 +371,7 @@
             class="col-6 col-lg-2 col-md-4 d-flex mb-4 justify-content-lg-start justify-content-center"
           >
             <div class="selectie-div selectie-img img-column">
-              <a href="{{site.baseurl}}/wayfinding.html">
+              <a href="/wayfinding.html">
                 <img
                   id="wayfinding"
                   class="img-fluid img-thumbnail w-100 selectie-img"
@@ -276,7 +394,7 @@
         class="text-center d-flex mb-2 mb-lg-0 me-mx-auto link-dark text-decoration-none"
       >
         <img
-          src="{{site.baseurl}}/assets/img/SR.jpg"
+          src="/assets/img/SR.jpg"
           width="25vw"
           style="opacity: 50%"
         />
