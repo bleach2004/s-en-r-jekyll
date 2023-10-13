@@ -3,6 +3,7 @@
 backend:
   name: git-gateway
   repo: bleach2004/s-en-r-jekyll
+  branch: main
 media_folder: "assets/img"
 collections:
   - name: "interieur-signing"
