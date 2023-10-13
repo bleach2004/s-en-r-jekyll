@@ -564,12 +564,14 @@ img.selectie-img {
 
 /* carousel */
 #productCarousel {
-  width: 80%; /* Adjust the width as needed */
+  width: 100%; /* Adjust the width as needed */
 }
 
 .carousel-item img {
-  height: 240px; /* Adjust the height as needed */
   object-fit: cover; /* Maintain aspect ratio and cover the area */
+
+  height: 300px; /* Adjust the height as needed */
+  width: 500px;
 }
 
 .carousel-image {
