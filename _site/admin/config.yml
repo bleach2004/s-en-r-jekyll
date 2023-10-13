@@ -1,5 +1,7 @@
 # config.yml
 
+local_backend: true
+
 backend:
   name: git-gateway
   repo: bleach2004/s-en-r-jekyll
@@ -9,13 +11,29 @@ collections:
   - name: "interieur-signing"
     label: "Interieur signing"
     folder: "interieur-signing"
+    editor:
+      preview: false
     fields:
       - { name: title }
       - { label: "Beschrijving", name: "body", widget: "markdown" }
+      - {
+          name: "carousel_images",
+          label: "Carousel Images",
+          widget: "list",
+          fields: [{ name: "image", label: "Image", widget: "image" }],
+        }
 
   - name: "exterieur-signing"
     label: "Exterieur signing"
     folder: "exterieur-signing"
+    editor:
+      preview: false
     fields:
       - { name: title }
       - { label: "Beschrijving", name: "body", widget: "markdown" }
+      - {
+          name: "carousel_images",
+          label: "Carousel Images",
+          widget: "list",
+          fields: [{ name: "image", label: "Image", widget: "image" }],
+        }

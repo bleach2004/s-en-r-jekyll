@@ -1,30 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,600;0,700;1,600&display=swap");
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-  ...;
-}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-  ...;
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-  ...;
-}
-
-// X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-  ...;
-}
-
-// XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) {
-  ...;
-}
-
 /* vars */
 :root {
   --green: #96c11f;
@@ -588,38 +563,43 @@ img.selectie-img {
 }
 
 /* carousel */
+#productCarousel {
+  width: 80%; /* Adjust the width as needed */
+}
 
-.product-image {
-  height: "370px";
-  objectFit: "cover";
+.carousel-item img {
+  height: 240px; /* Adjust the height as needed */
+}
+
+.carousel-image {
+  width: 500px;
+}
+
+.thumbnail-container {
+  display: flex;
+  justify-content: left;
+  margin-top: 20px;
 }
 
 .thumbnail {
-  min-width: 100px !important;
-  height: 70px !important;
+  margin-right: 5px; /* Adjust margin as needed */
+}
+
+.thumbnail img {
+  width: 80px; /* Adjust thumbnail width */
+  height: 50px; /* Maintain aspect ratio */
   object-fit: cover;
-  opacity: 1 !important;
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
-}
-.thumbnail:hover {
-  opacity: 0.5 !important;
+  cursor: pointer; /* Change cursor to indicate clickability */
 }
 
-.carousel-indicators-container {
-  white-space: nowrap; /* Prevent line breaks between thumbnails */
-  overflow-x: hidden;
+.thumbnail img.active {
+  border: 2px solid var(--green); /* Border for the active thumbnail */
 }
 
-.carousel-indicators {
-  margin: 0 !important;
-  scroll-snap-align: start; /* Snap thumbnails to the start of the container */
-  position: static;
-  bottom: -150px;
-  display: block;
-  opacity: 1 !important;
+/* Optional: Style the active thumbnail differently */
+.thumbnail img:hover {
+  border: 2px solid var(--green); /* Border on hover */
 }
-
 /* buttons */
 
 .btngreen {
