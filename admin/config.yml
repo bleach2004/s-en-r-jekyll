@@ -36,6 +36,8 @@ collections:
       #     fields: [{ name: "image", label: "Image", widget: "image" }],
       #   }
   - name: "single-pages"
+    editor:
+      preview: false
     label: "Single pages"
     folder: "pages"
     fields:
