@@ -42,7 +42,6 @@ collections:
     folder: "pages"
     fields:
       - { name: title }
-      - { label: "Beschrijving", name: "body", widget: "markdown" }
       - { label: "Koptekst", name: "header", widget: "string" }
       - { label: "Tagline", name: "tagline", widget: "string" }
       - { label: "Beschrijving", name: "body", widget: "markdown" }
