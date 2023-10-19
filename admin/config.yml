@@ -18,7 +18,7 @@ collections:
           name: "carousel_images",
           label: "Carousel Images",
           widget: "list",
-          fields: [{ name: "image", label: "Image", widget: "image" }],
+          field: [{ name: "image", label: "Image", widget: "image" }],
         }
 
   - name: "exterieur-signing"
@@ -33,7 +33,7 @@ collections:
           name: "carousel_images",
           label: "Carousel Images",
           widget: "list",
-          fields: [{ name: "image", label: "Image", widget: "image" }],
+          field: [{ name: "image", label: "Image", widget: "image" }],
         }
   - name: "single-pages"
     editor:
