@@ -14,12 +14,12 @@ collections:
     fields:
       - { name: title }
       - { label: "Beschrijving", name: "body", widget: "markdown" }
-      # - {
-      #     name: "carousel_images",
-      #     label: "Carousel Images",
-      #     widget: "list",
-      #     fields: [{ name: "image", label: "Image", widget: "image" }],
-      #   }
+      - {
+          name: "carousel_images",
+          label: "Carousel Images",
+          widget: "list",
+          fields: [{ name: "image", label: "Image", widget: "image" }],
+        }
 
   - name: "exterieur-signing"
     editor:
@@ -29,20 +29,19 @@ collections:
     fields:
       - { name: title }
       - { label: "Beschrijving", name: "body", widget: "markdown" }
-      # - {
-      #     name: "carousel_images",
-      #     label: "Carousel Images",
-      #     widget: "list",
-      #     fields: [{ name: "image", label: "Image", widget: "image" }],
-      #   }
-  - name: "over-ons"
+      - {
+          name: "carousel_images",
+          label: "Carousel Images",
+          widget: "list",
+          fields: [{ name: "image", label: "Image", widget: "image" }],
+        }
+  - name: "single-pages"
     editor:
       preview: false
-    label: "Over ons"
+    label: "Single pages"
     folder: "pages"
     fields:
       - { name: title }
-      - { label: "Beschrijving", name: "body", widget: "markdown" }
       - { label: "Koptekst", name: "header", widget: "string" }
       - { label: "Tagline", name: "tagline", widget: "string" }
       - { label: "Beschrijving", name: "body", widget: "markdown" }

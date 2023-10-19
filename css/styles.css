@@ -358,34 +358,6 @@ footer {
 
 /* VOOR HOMEPAGE */
 
-.landingpage-body,
-.landingpage-html {
-  height: 100%;
-  margin: 0;
-  overflow: hidden;
-  position: absolute;
-  background-image: url("../assets/img/achtergrond-landingspagina oud.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-}
-
-
-/* landing page */
-
-.landingpage-body,
-{
-  height: 100vh;
-  margin: 0;
-  overflow-y: hidden;
-  background-image: url("../assets/img/achtergrond-landingspagina oud.svg");
-  background-position: center;
-  background-position-y: 1%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .landingpage-container
 {
   position: absolute;
@@ -396,9 +368,9 @@ footer {
   scroll-behavior: smooth;
   height: 100vh;
   margin: 0;
-  background-image: url("../assets/img/achtergrond-landingspagina oud.svg");
+  background-image: url("../assets/img/achtergrond-landingspagina.svg");
   background-position: center;
-  background-position-y: 1%;
+  background-position-y: 20%;
   background-repeat: no-repeat;
   background-size: cover;
   overflow-x: hidden;
@@ -541,7 +513,7 @@ ul {
 
 img.selectie-img {
   width: 400px;
-  height: 150px;
+  height: auto;
   object-fit: cover;
   outline: none;
 }
