@@ -156,7 +156,7 @@ section.contact-us #contact {
   width: auto;
   height: auto;
   background-color: #fff;
-  padding: 40px;
+  padding: 30px;
   box-sizing: content-box;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
@@ -174,7 +174,7 @@ section.contact-us .section-heading {
   font-size: 28px;
   font-weight: 600;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .input,

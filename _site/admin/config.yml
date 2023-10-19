@@ -7,27 +7,42 @@ backend:
 media_folder: "assets/img"
 collections:
   - name: "interieur-signing"
+    editor:
+      preview: false
     label: "Interieur signing"
     folder: "pages/interieur-signing"
     fields:
       - { name: title }
       - { label: "Beschrijving", name: "body", widget: "markdown" }
-      - {
-          name: "carousel_images",
-          label: "Carousel Images",
-          widget: "list",
-          fields: [{ name: "image", label: "Image", widget: "image" }],
-        }
+      # - {
+      #     name: "carousel_images",
+      #     label: "Carousel Images",
+      #     widget: "list",
+      #     fields: [{ name: "image", label: "Image", widget: "image" }],
+      #   }
 
   - name: "exterieur-signing"
+    editor:
+      preview: false
     label: "Exterieur signing"
     folder: "pages/exterieur-signing"
     fields:
       - { name: title }
       - { label: "Beschrijving", name: "body", widget: "markdown" }
-      - {
-          name: "carousel_images",
-          label: "Carousel Images",
-          widget: "list",
-          fields: [{ name: "image", label: "Image", widget: "image" }],
-        }
+      # - {
+      #     name: "carousel_images",
+      #     label: "Carousel Images",
+      #     widget: "list",
+      #     fields: [{ name: "image", label: "Image", widget: "image" }],
+      #   }
+  - name: "over-ons"
+    editor:
+      preview: false
+    label: "Over ons"
+    folder: "pages"
+    fields:
+      - { name: title }
+      - { label: "Beschrijving", name: "body", widget: "markdown" }
+      - { label: "Koptekst", name: "header", widget: "string" }
+      - { label: "Tagline", name: "tagline", widget: "string" }
+      - { label: "Beschrijving", name: "body", widget: "markdown" }
