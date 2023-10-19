@@ -3,7 +3,7 @@ title: Folieteksten
 layout: product
 permalink: /folieteksten.html/
 carousel_images:
-  - /assets/img/portfolio/Peesframes/Hunter-Douglas-1-1536x864.jpg
+  - /assets/img/SR.jpg
 ---
 
 Dit is een test
