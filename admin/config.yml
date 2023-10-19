@@ -35,10 +35,8 @@ collections:
       #     widget: "list",
       #     fields: [{ name: "image", label: "Image", widget: "image" }],
       #   }
-  - name: "over-ons"
-    editor:
-      preview: false
-    label: "Over ons"
+  - name: "single-pages"
+    label: "Single pages"
     folder: "pages"
     fields:
       - { name: title }
