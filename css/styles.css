@@ -544,7 +544,6 @@ img.selectie-img {
   height: 150px;
   object-fit: cover;
   outline: none;
-  display: none;
 }
 
 .selectie-text {
