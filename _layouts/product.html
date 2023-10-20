@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="{{site.baseurl}}/css/styles.css" />
   </head>
 
-  <body class="page-body">
+  <body class="page-body body-flex">
     <nav class="navbar navbar-custom navbar-expand-lg navbar-dark">
       <div class="container">
         <a class="navbar-brand" href="{{site.baseurl}}/index.html">
@@ -90,10 +90,10 @@
       </div>
     </nav>
 
-    <div class="bg pb-4">
-      <div class="container">
+    <div class="bg content-stretch">
+      <div class="container mt-2">
         <div class="row gx-5">
-          <div class="col-lg-5 col-12 mt-3">
+          <div class="col-lg-5 col-12">
             <div
               id="productCarousel"
               class="carousel slide mx-auto mx-md-0"
@@ -123,102 +123,27 @@
               {% endfor %}
             </div>
 
-            <div class="col order-lg-3 d-block d-lg-none text-center mt-3">
-              <a href="#contact-section" class="btngreen">Offerte aanvragen</a>
+            <div class="col order-lg-3 d-block mt-4 w-100">
+              <a href="{{site.baseurl}}/contact.html" class="btngreen text-center w-100 py-3" style="font-size: 15px;">Offerte aanvragen</a>
             </div>
           </div>
 
           <div class="col-lg-7 col-12 order-lg-2 order-3">
             <h1
-              class="text-h1 text-lg-start mt-lg-2 mt-5 pt-2 mb-1 text-center"
+              class="text-h1 text-lg-start mt-4 mt-lg-0 mb-3"
             >
               {{page.title}}
             </h1>
             <div id="description" class="text-p1">{{ content }}</div>
-            <div class="col order-lg-3 d-none d-lg-block text-start mt-3">
-              <a href="#contact-section" class="btngreen">Offerte aanvragen</a>
-            </div>
           </div>
         </div>
 
-        <div class="row mt-5">
-          <div class="col-lg-7 col-12">
-            <section class="contact-us" id="contact-section">
-              <form
-                id="contact"
-                action="https://formspree.io/f/xjvqovvy"
-                method="POST"
-              >
-                <div class="section-heading">
-                  <h4>Neem contact op</h4>
-                </div>
-                <div class="inputField">
-                  <input
-                    type="name"
-                    name="name"
-                    id="name"
-                    class="input"
-                    placeholder="Naam"
-                    autocomplete="on"
-                    required
-                  />
-                  <span class="valid_info_name"></span>
-                </div>
-                <div class="inputField">
-                  <input
-                    type="Email"
-                    name="email"
-                    id="email"
-                    class="input"
-                    placeholder="E-mail"
-                    required=""
-                  />
-                  <span class="valid_info_email"></span>
-                </div>
-                <div class="inputField">
-                  <textarea
-                    name="message"
-                    id="message"
-                    class="input"
-                    placeholder="Omschrijving van uw offerte aanvraag"
-                  ></textarea>
-                  <span class="valid_info_message"></span>
-                </div>
-                <button type="submit" id="form-submit" class="btngreen">
-                  Stuur bericht
-                </button>
-              </form>
-            </section>
-          </div>
-
-          <div class="col-lg-5 col-12 mb-3 mt-1 order-lg-first">
-            <p class="text-p1 mb-1 fw-bold">Meer exterieur signing:</p>
-            <ul>
-              <li><a href="reclameborden.html">Reclameborden</a></li>
-              <li><a href="raamstikkers.html">Raamstikkers</a></li>
-              <li><a href="bewegwijzering.html">Bewegwijzering</a></li>
-              <li>
-                <a href="spandoeken-en-vlaggen.html">Spandoeken en vlaggen</a>
-              </li>
-              <li><a href="fleetmarking.html">Fleetmarking</a></li>
-            </ul>
-          </div>
-        </div>
       </div>
     </div>
 
-    <footer
-      class="d-flex flex-wrap align-items-center justify-content-center py-3 border-top"
-    >
-      <a
-        href="https://www.s-en-r.nl"
-        class="text-center d-flex mb-3 mb-md-0 me-mx-auto link-dark text-decoration-none"
-      >
-        <img
-          src="{{site.baseurl}}/assets/img/SR.jpg"
-          width="25vw"
-          style="opacity: 50%"
-        />
+    <footer class="d-flex flex-wrap align-items-center justify-content-center py-3 border-top">
+      <a href="/" class="text-center d-flex mb-md-0 me-mx-auto link-dark text-decoration-none">
+        <img src="{{site.baseurl}}/assets/img/SR.jpg" width="25vw" style="opacity: 50%" />
       </a>
     </footer>
     <script

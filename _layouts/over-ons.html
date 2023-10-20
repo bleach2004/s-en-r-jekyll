@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="{{site.baseurl}}/css/styles.css" />
   </head>
 
-  <body class="page-body">
+  <body class="page-body body-flex">
     <nav class="navbar navbar-custom navbar-expand-lg navbar-dark">
       <div class="container">
         <a class="navbar-brand" href="{{site.baseurl}}/index.html">
@@ -90,18 +90,20 @@
       </div>
     </nav>
 
-    <div class="bg pb-2">
+    <div class="bg content-stretch">
       <div class="container mb-5">
-        <h1 class="text-h1 mt-5" style="line-height: 35px">{{page.header}}</h1>
-        <h2 class="text-h3 mt-3 mb-4">{{page.tagline}}</h2>
-
-        <div class="row mt-5">
+          <div class="mt-lg-5 mt-0">
+            <h1 class="text-h1">{{page.header}}</h1>
+            <h2 class="text-h3 mb-4">{{page.tagline}}</h2>
           <div class="col-12 col-md-8">{{content}}</div>
+          </div>
+
+        <div class="row">
         </div>
       </div>
       <div class="container-flex">
         <iframe
-          style="border: 0"
+          style="border: 0; background-color:white;"
           tabindex="0"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2452.1616421762915!2d4.627153716121689!3d52.0767872797327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5d03e590083b5%3A0xab3c1d6581b4f3a8!2sEngelandlaan%2020%2C%202391%20PN%20Hazerswoude-Dorp!5e0!3m2!1snl!2snl!4v1589982109999!5m2!1snl!2snl"
           width="100%"
@@ -114,18 +116,9 @@
       </div>
     </div>
 
-    <footer
-      class="d-flex flex-wrap align-items-center justify-content-center py-3 border-top"
-    >
-      <a
-        href="/"
-        class="text-center d-flex mb-3 mb-md-0 me-mx-auto link-dark text-decoration-none"
-      >
-        <img
-          src="{{site.baseurl}}/assets/img/SR.jpg"
-          width="25vw"
-          style="opacity: 50%"
-        />
+    <footer class="d-flex flex-wrap align-items-center justify-content-center py-3 border-top">
+      <a href="/" class="text-center d-flex mb-md-0 me-mx-auto link-dark text-decoration-none">
+        <img src="{{site.baseurl}}/assets/img/SR.jpg" width="25vw" style="opacity: 50%" />
       </a>
     </footer>
 
