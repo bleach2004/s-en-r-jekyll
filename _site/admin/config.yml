@@ -4,7 +4,8 @@ backend:
   name: git-gateway
   repo: bleach2004/s-en-r-jekyll
   branch: main
-media_folder: "assets/img"
+
+media_folder: "assets/img/decap"
 collections:
   - name: "interieur-signing"
     editor:
@@ -31,13 +32,17 @@ collections:
         name: "carousel_images"
         widget: "list"
         field: { label: Afbeelding, name: image, widget: image }
-  - name: "single-pages"
-    editor:
-      preview: false
-    label: "Single pages"
-    folder: "pages/single-pages"
-    fields:
-      - { name: title }
-      - { label: "Koptekst", name: "header", widget: "string" }
-      - { label: "Tagline", name: "tagline", widget: "string" }
-      - { label: "Beschrijving", name: "body", widget: "markdown" }
+
+  - label: "Single pages"
+    name: "pages"
+    files:
+      - label: "Over ons"
+        name: "over-ons"
+        file: "pages/over-ons.md"
+        fields:
+          - { name: title }
+          - { label: "Header", name: "header", widget: "string" }
+          - { label: "Kop 1", name: "kop-1", widget: "string" }
+          - { label: "Tekst 1", name: "tekst-1", widget: "string" }
+          - { label: "Kop 2", name: "kop-2", widget: "string" }
+          - { label: "Tekst 2", name: "tekst-2", widget: "string" }

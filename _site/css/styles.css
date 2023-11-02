@@ -157,9 +157,7 @@ section.contact-us #contact {
   background-color: #fff;
   padding: 40px;
   box-sizing: content-box;
-  outline-style: solid;
-  outline-width: 2px;
-  outline-color: #f4f7fb;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
 
 section.contact-us .section-heading {
@@ -548,9 +546,8 @@ img.selectie-img {
 .carousel-item img {
   object-fit: cover; /* Maintain aspect ratio and cover the area */
 
-  /* height: auto; /* Adjust the height as needed */
-  width: 100%;
-  aspect-ratio: 6/4;
+  height: 300px; /* Adjust the height as needed */
+  width: 450px;
 }
 
 @media (max-width: 992px) {
@@ -579,11 +576,6 @@ img.selectie-img {
   height: 50px; /* Maintain aspect ratio */
   object-fit: cover;
   cursor: pointer; /* Change cursor to indicate clickability */
-  
-  opacity: 1;
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
-
 }
 
 .thumbnail img.active {
@@ -592,9 +584,8 @@ img.selectie-img {
 
 /* Optional: Style the active thumbnail differently */
 .thumbnail img:hover {
-  opacity: 0.5;
-    outline: 3px solid var(--green);
-    outline-offset: -3px;}
+  border: 2px solid var(--green); /* Border on hover */
+}
 /* buttons */
 
 .btngreen {
