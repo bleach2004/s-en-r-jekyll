@@ -35,12 +35,12 @@ collections:
 
   - label: "Single pages"
     name: "pages"
-    editor:
-      preview: false
     files:
       - label: "Over ons"
         name: "over-ons"
         file: "pages/over-ons.md"
+        editor:
+          preview: false
         fields:
           - { name: title }
           - { label: "Header", name: "header", widget: "string" }
@@ -51,6 +51,8 @@ collections:
       - label: "Interieur signing"
         name: "interieur-signing"
         file: "pages/interieur-signing.md"
+        editor:
+          preview: false
         fields:
           - { label: "Freesletters", name: "Freesletters", widget: "image" }
           - { label: "LED letters", name: "LED letters", widget: "image" }
@@ -78,6 +80,8 @@ collections:
       - label: "Exterieur signing"
         name: "exterieur-signing"
         file: "pages/exterieur-signing.md"
+        editor:
+          preview: false
         fields:
           - {
               label: "Gevelbelettering",
