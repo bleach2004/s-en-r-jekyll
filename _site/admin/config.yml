@@ -31,15 +31,13 @@ collections:
         name: "carousel_images"
         widget: "list"
         field: { label: Afbeelding, name: image, widget: image }
-  - name: "over-ons"
+  - name: "single-pages"
     editor:
       preview: false
     label: "Single pages"
-    file: "pages/over-ons.md"
+    folder: "pages/single-pages"
     fields:
       - { name: title }
-      - { label: "Header", name: "header", widget: "string" }
-      - { label: "Kop 1", name: "kop-1", widget: "string" }
-      - { label: "Tekst 1", name: "tekst-1", widget: "string" }
-      - { label: "Kop 2", name: "kop-2", widget: "string" }
-      - { label: "Tekst 2", name: "tekst-2", widget: "string" }
+      - { label: "Koptekst", name: "header", widget: "string" }
+      - { label: "Tagline", name: "tagline", widget: "string" }
+      - { label: "Beschrijving", name: "body", widget: "markdown" }

@@ -1,7 +1,7 @@
 ---
-title: Fleetmarking
+title: Schilderij prints
 layout: product
-permalink: /fleetmarking.html/
+permalink: /schilderij-prints.html/
 carousel_images:
   - /assets/img/portfolio/Peesframes/Hunter-Douglas-1-1536x864.jpg
 ---
