@@ -2,16 +2,18 @@
 title: exterieur-signing
 layout: exterieur-signing
 permalink: /exterieur-signing.html/
-bewegwijzering:
+Gevelbelettering:
   - /assets/img/portfolio/Peesframes/Hunter-Douglas-1-1536x864.jpg
-fleetmarking:
+Lichtreclame:
   - /assets/img/portfolio/Peesframes/Hunter-Douglas-1-1536x864.jpg
-gevel-en-lichtreclame:
+Reclamezuilen:
   - /assets/img/portfolio/Peesframes/Hunter-Douglas-1-1536x864.jpg
-raamstikkers:
+Raamstikkers:
   - /assets/img/portfolio/Peesframes/Hunter-Douglas-1-1536x864.jpg
-reclameborden:
+Bewegwijzering:
   - /assets/img/portfolio/Peesframes/Hunter-Douglas-1-1536x864.jpg
-spandoeken-en-vlaggen:
+Spandoeken en vlaggen:
+  - /assets/img/portfolio/Peesframes/Hunter-Douglas-1-1536x864.jpg
+Fleetmarking:
   - /assets/img/portfolio/Peesframes/Hunter-Douglas-1-1536x864.jpg
 ---

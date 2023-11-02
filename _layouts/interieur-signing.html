@@ -28,7 +28,7 @@
     <nav class="navbar navbar-custom navbar-expand-lg navbar-dark">
       <div class="container">
         <a class="navbar-brand" href="{{site.baseurl}}/index.html">
-          <img class="nav-logo" src="../assets/img/logo website wit.svg" />
+          <img class="nav-logo" src="../assets/img/logo.svg" />
         </a>
 
         <button
@@ -85,170 +85,44 @@
                 >Contact</a
               >
             </li>
+            <li class="nav-item ps-lg-4 pl-3 d-flex align-items-center">
+              <a href="{{site.baseurl}}/over-ons.html#milieu">
+                <img class="leaf" src="{{site.baseurl}}/assets/leaf.svg" />
+              </a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
 
     <div class="bg content-stretch">
-      <!-- SELECTIE MENU -->
       <div class="container-flex mx-4">
         <div class="row">
-          <div
-            class="col-12 col-sm-6 col-lg-2 col-md-4 d-flex mb-2 justify-content-lg-start justify-content-center"
-          >
-            <div class="selectie-div selectie-img img-column">
-              <a href="{{site.baseurl}}/wallcovering.html">
-                <img
-                  class="img-fluid img-thumbnail w-100 selectie-img"
-                  src="{{page.wallcovering}}"
-                />
-                <p class="selectie-text text-center">Wallcovering</p>
-              </a>
+          <div class="row">
+            {% assign desiredSectionTitle = "Interieur Signing" %} {% for
+            section in site.data.pagelist.toc %} {% if section.title ==
+            desiredSectionTitle %}
+            <div class="menu-section">
+              <h2 class="mb-4">{{section.title }}</h2>
+              <div class="row">
+                {% for item in section.subfolderitems %}
+                <div
+                  class="col-12 col-sm-6 col-lg-2 col-md-4 d-flex mb-2 justify-content-lg-start justify-content-center"
+                >
+                  <div class="selectie-div selectie-img img-column">
+                    <a href="{{ item.url }}">
+                      <img
+                        class="img-fluid img-thumbnail w-100 selectie-img"
+                        src="{{ page[item.page][0] }}"
+                      />
+                      <p class="selectie-text text-center">{{ item.page }}</p>
+                    </a>
+                  </div>
+                </div>
+                {% endfor %}
+              </div>
             </div>
-          </div>
-
-          <div
-            class="col-12 col-sm-6 col-lg-2 col-md-4 d-flex justify-content-lg-start justify-content-center"
-          >
-            <div class="selectie-div selectie-img img-column">
-              <a href="{{site.baseurl}}/interieurfolie.html">
-                <img
-                  class="img-fluid img-thumbnail w-100 selectie-img"
-                  src="{{page.interieurfolie}}"
-                />
-                <p class="selectie-text text-center">Interieurfolie</p>
-              </a>
-            </div>
-          </div>
-
-          <div
-            class="col-12 col-sm-6 col-lg-2 col-md-4 d-flex justify-content-lg-start justify-content-center"
-          >
-            <div class="selectie-div selectie-img img-column">
-              <a href="{{site.baseurl}}/privacy-folie.html">
-                <img
-                  class="img-fluid img-thumbnail w-100 selectie-img"
-                  src="{{page.privacy-folie}}"
-                />
-                <p class="selectie-text text-center">Privacy folie</p>
-              </a>
-            </div>
-          </div>
-
-          <div
-            class="col-12 col-sm-6 col-lg-2 col-md-4 d-flex justify-content-lg-start justify-content-center"
-          >
-            <div class="selectie-div selectie-img img-column">
-              <a href="{{site.baseurl}}/meubelpanelen.html">
-                <img
-                  class="img-fluid img-thumbnail w-100 selectie-img"
-                  src="{{page.meubelpanelen}}"
-                />
-                <p class="selectie-text text-center">
-                  Panel decor meubelpanelen
-                </p></a
-              >
-            </div>
-          </div>
-
-          <!-- row 2 -->
-          <div
-            class="col-12 col-sm-6 col-lg-2 col-md-4 d-flex mb-2 justify-content-lg-start justify-content-center"
-          >
-            <div class="selectie-div selectie-img img-column">
-              <a href="{{site.baseurl}}/peesframes.html">
-                <img
-                  class="img-fluid img-thumbnail w-100 selectie-img"
-                  src="{{page.peesframes}}"
-                />
-                <p class="selectie-text text-center">Peesframes</p>
-              </a>
-            </div>
-          </div>
-
-          <div
-            class="col-12 col-sm-6 col-lg-2 col-md-4 d-flex mb-2 justify-content-lg-start justify-content-center"
-          >
-            <div class="selectie-div selectie-img img-column">
-              <a href="{{site.baseurl}}/ledframes.html">
-                <img
-                  class="img-fluid img-thumbnail w-100 selectie-img"
-                  src="{{page.ledframes}}"
-                />
-                <p class="selectie-text text-center">Ledframes</p>
-              </a>
-            </div>
-          </div>
-
-          <div
-            class="col-12 col-sm-6 col-lg-2 col-md-4 d-flex mb-2 justify-content-lg-start justify-content-center"
-          >
-            <div class="selectie-div selectie-img img-column">
-              <a href="{{site.baseurl}}/foto-op-textiel.html">
-                <img
-                  class="img-fluid img-thumbnail w-100 selectie-img"
-                  src="{{page.foto-op-textiel}}"
-                />
-                <p class="selectie-text text-center">Foto op textiel</p>
-              </a>
-            </div>
-          </div>
-
-          <div
-            class="col-12 col-sm-6 col-lg-2 col-md-4 d-flex mb-2 justify-content-lg-start justify-content-center"
-          >
-            <div class="selectie-div selectie-img img-column">
-              <a href="{{site.baseurl}}/folieteksten.html">
-                <img
-                  class="img-fluid img-thumbnail w-100 selectie-img"
-                  src="{{page.folieteksten}}"
-                />
-                <p class="selectie-text text-center">Folieteksten en logo's</p>
-              </a>
-            </div>
-          </div>
-
-          <div
-            class="col-12 col-sm-6 col-lg-2 col-md-4 d-flex mb-2 justify-content-lg-start justify-content-center"
-          >
-            <div class="selectie-div selectie-img img-column">
-              <a href="{{site.baseurl}}/schilderij-prints.html">
-                <img
-                  class="img-fluid img-thumbnail w-100 selectie-img"
-                  src="{{page.schilderij-prints}}"
-                />
-                <p class="selectie-text text-center">Schilderij prints</p>
-              </a>
-            </div>
-          </div>
-
-          <div
-            class="col-12 col-sm-6 col-lg-2 col-md-4 d-flex mb-2 justify-content-lg-start justify-content-center"
-          >
-            <div class="selectie-div selectie-img img-column">
-              <a href="{{site.baseurl}}/whiteboards.html">
-                <img
-                  class="img-fluid img-thumbnail w-100 selectie-img"
-                  src="{{page.whiteboards}}"
-                />
-                <p class="selectie-text text-center">Whiteboards</p>
-              </a>
-            </div>
-          </div>
-
-          <div
-            class="col-12 col-sm-6 col-lg-2 col-md-4 d-flex mb-2 justify-content-lg-start justify-content-center"
-          >
-            <div class="selectie-div selectie-img img-column">
-              <a href="{{site.baseurl}}/wayfinding.html">
-                <img
-                  class="img-fluid img-thumbnail w-100 selectie-img"
-                  src="{{page.wayfinding}}"
-                />
-                <p class="selectie-text text-center">Wayfinding</p>
-              </a>
-            </div>
+            {% endif %} {% endfor %}
           </div>
         </div>
       </div>

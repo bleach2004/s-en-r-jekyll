@@ -28,7 +28,7 @@
     <nav class="navbar navbar-custom navbar-expand-lg navbar-dark">
       <div class="container">
         <a class="navbar-brand" href="{{site.baseurl}}/index.html">
-          <img class="nav-logo" src="../assets/img/logo website wit.svg" />
+          <img class="nav-logo" src="../assets/img/logo.svg" />
         </a>
 
         <button
@@ -85,6 +85,11 @@
                 >Contact</a
               >
             </li>
+            <li class="nav-item ps-lg-4 pl-3 d-flex align-items-center">
+              <a href="{{site.baseurl}}/over-ons.html#milieu">
+                <img class="leaf" src="{{site.baseurl}}/assets/leaf.svg" />
+              </a>
+            </li>
           </ul>
         </div>
       </div>
@@ -92,11 +97,15 @@
 
     <div class="bg pb-2">
       <div class="container mb-5">
-        <h1 class="text-h1 mt-5" style="line-height: 35px">{{page.header}}</h1>
-        <h2 class="text-h3 mt-3 mb-4">{{page.tagline}}</h2>
-
+        <div class="row mt-4">
+          <h1 class="text-h1" style="line-height: 35px">{{page.header}}</h1>
+          <h2 class="text-h3 mt-3 mb-4">{{page.kop-1}}</h2>
+          <div class="col-12 col-md-8">{{page.tekst-1}}</div>
+        </div>
         <div class="row mt-5">
-          <div class="col-12 col-md-8">{{content}}</div>
+          <h2 id="milieu" class="text-h3 mb-4">{{page.kop-2}}</h2>
+
+          <div class="col-12 col-md-8">{{page.tekst-2}}</div>
         </div>
       </div>
       <div class="container-flex">

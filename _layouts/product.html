@@ -28,7 +28,7 @@
     <nav class="navbar navbar-custom navbar-expand-lg navbar-dark">
       <div class="container">
         <a class="navbar-brand" href="{{site.baseurl}}/index.html">
-          <img class="nav-logo" src="../assets/img/logo website wit.svg" />
+          <img class="nav-logo" src="../assets/img/logo.svg" />
         </a>
 
         <button
@@ -84,6 +84,11 @@
               <a class="nav-link" href="{{site.baseurl}}/Contact.html"
                 >Contact</a
               >
+            </li>
+            <li class="nav-item ps-lg-4 pl-3 d-flex align-items-center">
+              <a href="{{site.baseurl}}/over-ons.html#milieu">
+                <img class="leaf" src="{{site.baseurl}}/assets/leaf.svg" />
+              </a>
             </li>
           </ul>
         </div>
@@ -192,15 +197,13 @@
           </div>
 
           <div class="col-lg-5 col-12 mb-3 mt-1 order-lg-first">
-            <p class="text-p1 mb-1 fw-bold">Meer exterieur signing:</p>
+            <p class="text-p1 mb-1 fw-bold">Meer {{ page.category }}:</p>
             <ul>
-              <li><a href="reclameborden.html">Reclameborden</a></li>
-              <li><a href="raamstikkers.html">Raamstikkers</a></li>
-              <li><a href="bewegwijzering.html">Bewegwijzering</a></li>
-              <li>
-                <a href="spandoeken-en-vlaggen.html">Spandoeken en vlaggen</a>
-              </li>
-              <li><a href="fleetmarking.html">Fleetmarking</a></li>
+              {% for section in site.data.pagelist.toc %} {% if section.title ==
+              page.category %} {% for item in section.subfolderitems %} {%
+              unless item.page == page.title %}
+              <li><a href="{{ item.url }}">{{ item.page }}</a></li>
+              {% endunless %} {% endfor %} {% endif %} {% endfor %}
             </ul>
           </div>
         </div>

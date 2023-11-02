@@ -1,37 +1,37 @@
 toc:
   - title: Interieur Signing
     subfolderitems:
-      - page: Wallcovering
-        url: /wallcovering.html
-      - page: Textielframes
-        url: /textielframes.html
-      - page: Interieurfolie
-        url: /interieurfolie.html
-      - page: Privacy folie
-        url: /privacy-folie.html
-      - page: Meubelpanelen
-        url: /meubelpanelen.html
+      - page: Freesletters
+        url: /freesletters.html
+      - page: LED letters
+        url: /led-letters.html
       - page: Peesframes
         url: /peesframes.html
-      - page: Ledframes
-        url: /ledframes.html
-      - page: Foto op textiel
-        url: /foto-op-textiel.html
+      - page: Lightboxen
+        url: /lightboxen.html
+      - page: Wallcovering
+        url: /wallcovering.html
+      - page: Privacyfolie
+        url: /privacyfolie.html
+      - page: Interieurfolie's
+        url: /interieurfolies.html
+      - page: Meubelrestyle
+        url: /meubelrestyle.html
+      - page: Full-color prints
+        url: /full-color-prints.html
       - page: Folieteksten en logo's
-        url: /folieteksten.html
-      - page: Schilderij prints
-        url: /schilderij-prints.html
-      - page: Whiteboards
-        url: /whiteboards.html
+        url: /folieteksten-en-logos.html
       - page: Wayfinding
         url: /wayfinding.html
 
   - title: Exterieur Signing
     subfolderitems:
-      - page: Gevel- en lichtreclame
-        url: /gevel-en-lichtreclame.html
-      - page: Reclameborden
-        url: /reclameborden.html
+      - page: Gevelbelettering
+        url: /gevelbelettering.html
+      - page: Lichtreclame
+        url: /lichtreclame.html
+      - page: Reclamezuilen
+        url: /reclamezuilen.html
       - page: Raamstikkers
         url: /raamstikkers.html
       - page: Bewegwijzering
@@ -40,12 +40,3 @@ toc:
         url: /spandoeken-en-vlaggen.html
       - page: Fleetmarking
         url: /fleetmarking.html
-
-    # - title: Over ons
-    # -   url: /over-ons.html
-
-    # - page: Nieuws
-    # -   url: /nieuws.html
-
-    # - page: Contact
-    # -   url: /contact.html

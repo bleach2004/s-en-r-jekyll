@@ -2,28 +2,26 @@
 title: interieur-signing
 layout: interieur-signing
 permalink: /interieur-signing.html/
-wallcovering:
+Freesletters:
   - /assets/img/portfolio/Peesframes/Hunter-Douglas-1-1536x864.jpg
-textielframes:
+LED letters:
   - /assets/img/portfolio/Peesframes/Hunter-Douglas-1-1536x864.jpg
-interieurfolie:
+Peesframes:
   - /assets/img/portfolio/Peesframes/Hunter-Douglas-1-1536x864.jpg
-privacy-folie:
+Lightboxen:
   - /assets/img/portfolio/Peesframes/Hunter-Douglas-1-1536x864.jpg
-meubelpanelen:
+Wallcovering:
   - /assets/img/portfolio/Peesframes/Hunter-Douglas-1-1536x864.jpg
-peesframes:
+Privacyfolie:
   - /assets/img/portfolio/Peesframes/Hunter-Douglas-1-1536x864.jpg
-ledframes:
+Interieurfolie's:
   - /assets/img/portfolio/Peesframes/Hunter-Douglas-1-1536x864.jpg
-foto-op-textiel:
+Meubelrestyle:
   - /assets/img/portfolio/Peesframes/Hunter-Douglas-1-1536x864.jpg
-folieteksten:
+Full-color prints:
   - /assets/img/portfolio/Peesframes/Hunter-Douglas-1-1536x864.jpg
-schilderij-prints:
+Folieteksten en logo's:
   - /assets/img/portfolio/Peesframes/Hunter-Douglas-1-1536x864.jpg
-whiteboards:
-  - /assets/img/portfolio/Peesframes/Hunter-Douglas-1-1536x864.jpg
-wayfinding:
+Wayfinding:
   - /assets/img/portfolio/Peesframes/Hunter-Douglas-1-1536x864.jpg
 ---

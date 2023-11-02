@@ -41,7 +41,6 @@ html {
   }
 }
 
-
 @media (min-width: 400px) {
   .header-text {
     font-size: 40px;
@@ -194,8 +193,6 @@ textarea {
   margin-right: auto;
 }
 
-
-
 input {
   height: 40px;
   padding: 0px 15px;
@@ -225,8 +222,6 @@ textarea {
   margin-left: auto;
   margin-right: auto;
 }
-
-
 
 .valid_info_name,
 .valid_info_email,
@@ -358,8 +353,7 @@ footer {
 
 /* VOOR HOMEPAGE */
 
-.landingpage-container
-{
+.landingpage-container {
   position: absolute;
 }
 
@@ -405,21 +399,24 @@ footer {
 }
 
 .navbar-custom {
-  background-color: rgba(0,0,0,0.8) !important;
+  background-color: rgba(0, 0, 0, 0.8) !important;
   backdrop-filter: grayscale(1);
   width: 100%;
   z-index: 1;
 }
 
-.navbar-nav-custom li a{color:#ffffff !important;}
-.navbar-nav-custom li {background-color: rgba(0,0,0,0)!important;}
+.navbar-nav-custom li a {
+  color: #ffffff !important;
+}
+.navbar-nav-custom li {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
 
 .dropdown-item:focus {
   color: white !important;
-  background-color: rgba(0,0,0,0) !important;
-}
+  background-color: rgba(0, 0, 0, 0) !important;
 
-.navbar-nav-custom > li > .dropdown-menu > li > a:hover > a:focus {
+}.navbar-nav-custom > li > .dropdown-menu > li > a:hover > a:focus {
   background-color: rgba(0,0,0,0)
   color: rgba(0,0,0,0)
 }
@@ -452,6 +449,14 @@ footer {
 .navbar-nav-custom > li > .dropdown-menu > li > a:hover {
   background-color: rgba(0, 0, 0, 0);
 }
+
+.leaf {
+  filter: invert(63%) sepia(96%) saturate(369%) hue-rotate(31deg)
+  brightness(92%) contrast(92%);
+  vertical-align: middle;
+  width: 37px;
+}
+
 
 ul.navbar-nav {
   font-family: "Raleway", sans-serif;

@@ -28,7 +28,7 @@
     <nav class="navbar navbar-custom navbar-expand-lg navbar-dark">
       <div class="container">
         <a class="navbar-brand" href="{{site.baseurl}}/index.html">
-          <img class="nav-logo" src="../assets/img/logo website wit.svg" />
+          <img class="nav-logo" src="../assets/img/logo.svg" />
         </a>
 
         <button
@@ -85,99 +85,44 @@
                 >Contact</a
               >
             </li>
+            <li class="nav-item ps-lg-4 pl-3 d-flex align-items-center">
+              <a href="{{site.baseurl}}/over-ons.html#milieu">
+                <img class="leaf" src="{{site.baseurl}}/assets/leaf.svg" />
+              </a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
 
     <div class="bg content-stretch">
-      <!-- SELECTIE MENU -->
-      <div class="container-flex mx-4 mb-md-5">
+      <div class="container-flex mx-4">
         <div class="row">
-          <!-- row 1 -->
-          <div
-            class="col-6 col-lg-2 col-md-4 d-flex mb- justify-content-lg-start justify-content-center"
-          >
-            <div class="selectie-div selectie-img img-column">
-              <a href="{{site.baseurl}}/gevel-en-lichtreclame.html">
-                <img
-                  class="img-fluid img-thumbnail w-100 selectie-img"
-                  src="{{page.gevel-en-lichtreclame}}"
-                />
-                <p class="selectie-text text-center">Gevel- en lichtreclame</p>
-              </a>
+          <div class="row">
+            {% assign desiredSectionTitle = "Exterieur Signing" %} {% for
+            section in site.data.pagelist.toc %} {% if section.title ==
+            desiredSectionTitle %}
+            <div class="menu-section">
+              <h2 class="mb-4">{{section.title }}</h2>
+              <div class="row">
+                {% for item in section.subfolderitems %}
+                <div
+                  class="col-12 col-sm-6 col-lg-2 col-md-4 d-flex mb-2 justify-content-lg-start justify-content-center"
+                >
+                  <div class="selectie-div selectie-img img-column">
+                    <a href="{{ item.url }}">
+                      <img
+                        class="img-fluid img-thumbnail w-100 selectie-img"
+                        src="{{ page[item.page][0] }}"
+                      />
+                      <p class="selectie-text text-center">{{ item.page }}</p>
+                    </a>
+                  </div>
+                </div>
+                {% endfor %}
+              </div>
             </div>
-          </div>
-
-          <div
-            class="col-6 col-lg-2 col-md-4 d-flex justify-content-lg-start justify-content-center"
-          >
-            <div class="selectie-div selectie-img img-column">
-              <a href="{{site.baseurl}}/reclameborden.html">
-                <img
-                  class="img-fluid img-thumbnail w-100 selectie-img"
-                  src="{{page.reclameborden}}"
-                />
-                <p class="selectie-text text-center">Reclameborden</p>
-              </a>
-            </div>
-          </div>
-
-          <div
-            class="col-6 col-lg-2 col-md-4 d-flex justify-content-lg-start justify-content-center"
-          >
-            <div class="selectie-div selectie-img img-column">
-              <a href="{{site.baseurl}}/raamstikkers.html">
-                <img
-                  class="img-fluid img-thumbnail w-100 selectie-img"
-                  src="{{page.raamstikkers}}"
-                />
-                <p class="selectie-text text-center">Raamstikkers</p>
-              </a>
-            </div>
-          </div>
-
-          <div
-            class="col-6 col-lg-2 col-md-4 d-flex justify-content-lg-start justify-content-center"
-          >
-            <div class="selectie-div selectie-img img-column">
-              <a href="{{site.baseurl}}/bewegwijzering.html">
-                <img
-                  class="img-fluid img-thumbnail w-100 selectie-img"
-                  src="{{page.bewegwijzering}}"
-                />
-                <p class="selectie-text text-center">Bewegwijzering</p>
-              </a>
-            </div>
-          </div>
-
-          <!-- row 2 -->
-          <div
-            class="col-6 col-lg-2 col-md-4 d-flex mb- justify-content-lg-start justify-content-center"
-          >
-            <div class="selectie-div selectie-img img-column">
-              <a href="{{site.baseurl}}/spandoeken-en-vlaggen.html">
-                <img
-                  class="img-fluid img-thumbnail w-100 selectie-img"
-                  src="{{page.spandoeken-en-vlaggen}}"
-                />
-                <p class="selectie-text text-center">Spandoeken en vlaggen</p>
-              </a>
-            </div>
-          </div>
-
-          <div
-            class="col-6 col-lg-2 col-md-4 d-flex mb- justify-content-lg-start justify-content-center"
-          >
-            <div class="selectie-div selectie-img img-column">
-              <a href="{{site.baseurl}}/fleetmarking.html">
-                <img
-                  class="img-fluid img-thumbnail w-100 selectie-img"
-                  src="{{page.fleetmarking}}"
-                />
-                <p class="selectie-text text-center">Fleetmarking</p>
-              </a>
-            </div>
+            {% endif %} {% endfor %}
           </div>
         </div>
       </div>
