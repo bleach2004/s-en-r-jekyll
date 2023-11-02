@@ -63,7 +63,7 @@ collections:
               name: "Interieurfolie's",
               widget: "image",
             }
-          - { label: "Meubelrestyle", name: "Freesletters", widget: "image" }
+          - { label: "Meubelrestyle", name: "Meubelrestyle", widget: "image" }
           - {
               label: "Full-color prints",
               name: "Full-color prints",
