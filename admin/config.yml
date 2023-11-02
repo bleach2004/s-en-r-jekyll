@@ -35,6 +35,8 @@ collections:
 
   - label: "Single pages"
     name: "pages"
+    editor:
+      preview: false
     files:
       - label: "Over ons"
         name: "over-ons"
