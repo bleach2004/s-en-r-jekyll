@@ -4,10 +4,6 @@ layout: product
 permalink: /LED-letters.html/
 category: Interieur Signing
 carousel_images:
-  - /assets/img/decap/naamloos-4.jpg
-  - /assets/img/decap/20200417_164513.jpg
-  - /assets/img/decap/20201105_165833.jpg
-  - /assets/img/decap/20200417_164455.jpg
-  - /assets/img/decap/naamloos-1.jpg
+  - /assets/img/decap/naamloos-3.png
 ---
 LED letters test
