@@ -4,7 +4,7 @@ layout: product
 permalink: /wayfinding.html/
 category: Interieur Signing
 carousel_images:
-  - /assets/img/portfolio/Peesframes/Hunter-Douglas-1-1536x864.jpg
+  - /assets/img/decap/ns-houten-bak-met-sticker.png
 ---
 
 Wayfinding
