@@ -10,4 +10,4 @@ carousel_images:
   - /assets/img/decap/sony.png
   - /assets/img/decap/espresso-house.png
 ---
-LED letters test
+LED letters test.
