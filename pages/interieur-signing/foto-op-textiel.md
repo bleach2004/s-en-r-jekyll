@@ -3,7 +3,7 @@ title: Foto op textiel
 layout: product
 permalink: /foto-op-textiel.html/
 carousel_images:
-  - /assets/img/portfolio/Peesframes/Hunter-Douglas-1-1536x864.jpg
+  - /assets/img/decap/ns-houten-bak-met-sticker.png
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla rhoncus libero non magna maximus tempus. Aliquam posuere viverra ultrices. Mauris id justo sapien. Vivamus mollis dolor metus, ac finibus nisl vulputate id. Donec sodales sem ac massa sodales, in consectetur nulla finibus. Pellentesque quis magna orci. Mauris dictum nibh ullamcorper enim imperdiet, eget dictum massa lobortis. Nam suscipit leo eget erat efficitur lobortis. Morbi pharetra vehicula sapien, non molestie lacus molestie quis.
