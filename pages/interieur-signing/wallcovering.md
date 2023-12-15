@@ -4,7 +4,11 @@ layout: product
 permalink: /wallcovering.html/
 category: Interieur Signing
 carousel_images:
-  - /assets/img/portfolio/Peesframes/Hunter-Douglas-1-1536x864.jpg
+  - /assets/img/decap/nio.png
+  - /assets/img/decap/de-mol.png
+  - /assets/img/decap/ns.png
+  - /assets/img/decap/ronde-wand.png
+  - /assets/img/decap/zund.png
 ---
 
 Wallcovering
