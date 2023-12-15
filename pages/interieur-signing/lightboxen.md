@@ -4,7 +4,11 @@ layout: product
 permalink: /lightboxen.html/
 category: Interieur Signing
 carousel_images:
-  - /assets/img/portfolio/Peesframes/Hunter-Douglas-1-1536x864.jpg
+  - /assets/img/decap/perry.png
+  - /assets/img/decap/niu.png
+  - /assets/img/decap/janzen.png
+  - /assets/img/decap/kwantum.png
+  - /assets/img/decap/sneakers.png
 ---
 
 Lightboxen
