@@ -4,7 +4,11 @@ layout: product
 permalink: /gevelbelettering.html/
 category: Exterieur Signing
 carousel_images:
-  - /assets/img/portfolio/Peesframes/Hunter-Douglas-1-1536x864.jpg
+  - /assets/img/decap/personal-trainer.png
+  - /assets/img/decap/owndays.png
+  - /assets/img/decap/domburg.png
+  - /assets/img/decap/de-boer.png
+  - /assets/img/decap/adam.png
 ---
 
 Gevelbelettering
