@@ -10,8 +10,27 @@ carousel_images:
   - /assets/img/decap/ziggo.png
   - /assets/img/decap/longines.png
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla rhoncus libero non magna maximus tempus. Aliquam posuere viverra ultrices. Mauris id justo sapien. Vivamus mollis dolor metus, ac finibus nisl vulputate id. Donec sodales sem ac massa sodales, in consectetur nulla finibus. Pellentesque quis magna orci. Mauris dictum nibh ullamcorper enim imperdiet, eget dictum massa lobortis. Nam suscipit leo eget erat efficitur lobortis. Morbi pharetra vehicula sapien, non molestie lacus molestie quis.
+## **LED letters en logo's**
 
-Suspendisse potenti. Donec a rutrum justo, in lobortis odio. Phasellus id luctus enim, id tincidunt enim. Nullam vitae augue et nulla ultrices pretium. Vivamus porta lacus vitae ex ultrices, non vulputate turpis vestibulum. Praesent sit amet sollicitudin ipsum, at rutrum augue. Quisque ut purus non libero molestie tristique. Curabitur rutrum libero feugiat congue pharetra. Suspendisse rutrum elit sit amet lorem posuere cursus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed velit nisl, condimentum sed tincidunt id, ornare eu lacus. Donec volutpat varius tristique. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Curabitur aliquet libero non maximus accumsan. Fusce tincidunt finibus orci quis consequat.
+Bedrijfslogo's en merknamen kunnen worden uitgevoerd als LED letters en uit diverse materialen worden geproduceerd. Door verlichting aan te brengen in letters en logo's wordt de attentiewaarde verhoogd. Toepassingsgebieden zijn bedrijfslogo's, wayfinding, slogans en allerlei decoratieve toepassingen.
 
-Donec fermentum vitae sapien et egestas. Vestibulum pharetra purus purus, at scelerisque risus pretium at. Sed ornare congue semper. Nam tincidunt orci ut pharetra mattis. Suspendisse potenti. Duis et velit pretium, sodales urna vitae, ultrices metus. Sed sit amet blandit sem. Nullam rhoncus finibus tempus. Morbi scelerisque lorem sed tristique porttitor. Donec vitae metus eget ex condimentum ornare nec quis erat. Morbi nunc nisl, eleifend et arcu nec, viverra sollicitudin enim. Aenean convallis imperdiet lacus. Nunc sed tellus tortor. Etiam non lobortis turpis, at tristique eros.
+LED verlichting kan worden ingebouwd in freesletters en doosletters en ook in verschillende uitlichtingsvormen.
+
+* Back-lite
+* Back-lite met contourlijn
+* Front-lite only
+* Front-lite front en side
+* Side-lite only
+* Neon-look
+
+Ook kunnen zeer uiteenlopende materialen worden toegepast zoals acrylaat, hout, aluminium, RVS of een combinatie hiervan. 
+
+![](/assets/img/decap/blaadje-groen-2.png)
+
+Het is mogelijk om gebruik te maken van circulaire materialen zoals gerecycled acrylaat en di-bond maar ook gebruikt hout gerecyclede kunststoffen. Hoewel LED verlichting op zich niet circulair is, draagt het wel bij tot een zuiniger energie gebruik. De ontwikkelingen op dit gebied gaan steeds meer naar meer lichtopbrengst met minder vermogen. Ook kunnen bepaalde materialen aan het "end of lifietime" bij ons worden terug geleverd en worden gerecycled.
+
+Mede door onze productie in eigenhuis, houden we de footprint van onze producten laag en zijn de productielijnen laag en kunnen we instaan voor een hoge kwaliteit.
+
+*Hoe kunnen we u helpen?*
+
+Bent u op zoek naar letters en logo's met LED verlichting , neem dan contact op met onze specialisten.
