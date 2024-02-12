@@ -12,9 +12,7 @@ carousel_images:
 ---
 ## **3D-letters**
 
-
-
-Bedrijfslogo's en merknamen kunnen worden uitgevoerd als 3-D letters en uit diverse materialen worden geproduceerd. De attentiewaarde wordt vergroot door de robuustheid van de letters.
+Bedrijfslogo's en merknamen kunnen worden uitgevoerd als 3D letters en uit diverse materialen worden geproduceerd. De attentiewaarde wordt vergroot door de robuustheid van de letters.
 
 3D letters en logo's kunnen we produceren in alle gewenste kleuren en zelfs voorzien van full-colorprints. Uit kunststof kunnen letters tot een diepte van 30 mm worden geproduceerd, daarboven worden de letters gemaakt uit aluminium in de vorm van een doosletter. Natuurlijk kunnen de 3D-letters en logo's ook worden voorzien van LED verlichting. Meer info hierover vindt u bij het menu-item LED-letters.
 
@@ -27,7 +25,5 @@ Mede door onze productie in eigenhuis, houden we de footprint van onze producten
 *Hoe kunnen we u helpen?*
 
 Bent u op zoek naar 3D-letters en wilt u meer weten over de materialen en uitvoeringen waaruit u kunt kiezen, neemt dan contact op met onze specialisten.
-
-
 
 ![](/assets/img/decap/doos-en-freesletter-2.png)
