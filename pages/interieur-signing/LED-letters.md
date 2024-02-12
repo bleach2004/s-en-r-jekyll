@@ -27,10 +27,12 @@ Ook kunnen zeer uiteenlopende materialen worden toegepast zoals acrylaat, hout, 
 
 ![](/assets/img/decap/blaadje-groen-2.png)
 
-Het is mogelijk om gebruik te maken van circulaire materialen zoals gerecycled acrylaat en di-bond maar ook gebruikt hout gerecyclede kunststoffen. Hoewel LED verlichting op zich niet circulair is, draagt het wel bij tot een zuiniger energie gebruik. De ontwikkelingen op dit gebied gaan steeds meer naar meer lichtopbrengst met minder vermogen. Ook kunnen bepaalde materialen aan het "end of lifietime" bij ons worden terug geleverd en worden gerecycled.
+Het is mogelijk om gebruik te maken van circulaire materialen zoals gerecycled acrylaat en di-bond maar ook gebruikt hout gerecyclede kunststoffen. Hoewel LED verlichting op zich niet circulair is, draagt het wel bij tot een zuiniger energie gebruik. De ontwikkelingen op dit gebied gaan steeds meer naar meer lichtopbrengst met minder vermogen. Ook kunnen bepaalde materialen aan het "end of life-time" bij ons worden terug geleverd en worden gerecycled.
 
 Mede door onze productie in eigenhuis, houden we de footprint van onze producten laag en zijn de productielijnen laag en kunnen we instaan voor een hoge kwaliteit.
 
 *Hoe kunnen we u helpen?*
 
 Bent u op zoek naar letters en logo's met LED verlichting , neem dan contact op met onze specialisten.
+
+![](/assets/img/decap/doos-en-freesletter-verlicht.png)
