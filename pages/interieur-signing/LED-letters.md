@@ -35,4 +35,4 @@ Mede door onze productie in eigenhuis, houden we de footprint van onze producten
 
 Bent u op zoek naar letters en logo's met LED verlichting , neem dan contact op met onze specialisten.
 
-![](/assets/img/decap/doos-en-freesletter-verlicht.png)
+![](/assets/img/decap/doos-en-freesletter-3-lettercontour.png)
