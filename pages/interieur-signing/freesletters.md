@@ -1,5 +1,5 @@
 ---
-title: Freesletters
+title: 3D letters
 layout: product
 permalink: /freesletters.html/
 category: Interieur Signing
