@@ -1,5 +1,5 @@
 ---
-title: 3D letters
+title: 3D letters en logo's
 layout: product
 permalink: /freesletters.html/
 category: Interieur Signing
@@ -10,7 +10,7 @@ carousel_images:
   - /assets/img/decap/nio-png.png
   - /assets/img/decap/docspropng.png
 ---
-## **3D-letters**
+
 
 Bedrijfslogo's en merknamen kunnen worden uitgevoerd als 3D letters en uit diverse materialen worden geproduceerd. De attentiewaarde wordt vergroot door de robuustheid van de letters.
 
