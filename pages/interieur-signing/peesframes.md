@@ -1,5 +1,5 @@
 ---
-title: Peesframes
+title: SRT-textielframes
 layout: product
 permalink: /peesframes.html/
 category: Interieur Signing
@@ -10,5 +10,4 @@ carousel_images:
   - /assets/img/decap/dior.png
   - /assets/img/decap/janzen.png
 ---
-
-Peesframes
+Textielframes zijn een perfect middel om uw reclameboodschappen of seizoengebonden sfeerbeelden eenvoudig te kunnen
