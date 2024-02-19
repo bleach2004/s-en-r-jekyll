@@ -16,4 +16,8 @@ Textielframes kunnen in alle formaten worden geproduceerd en dus ook wand vullen
 
 De frames kunnen ook vrijstaand en dubbelzijdig worden geleverd waardoor ze als scheidingswanden op kantoren, reclamepanelen en wayfinding in gebouwen kunnen worden toegepast.
 
+![](/assets/img/decap/blaadje-groen-2.png)
+
+Ook op het gebied van de textielframes staan de ontwikkelingen niet stil. Hoewel aluminium een belasting is van grondstoffen, kunnen de profielen wel heel goed worden gerecycled
+
 ![](/assets/img/decap/srt-profielen.png)
