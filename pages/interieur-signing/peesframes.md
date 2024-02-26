@@ -16,7 +16,9 @@ Textielframes kunnen in alle formaten worden geproduceerd en dus ook wand vullen
 
 Doordat er veel verschillende peesprofielen leverbaar zijn, kunnen vele vormen worden toegepast. Kubussen, cirkels, schuifwanden, deuren en veel meer. Laat uw creativiteit maar los gaan. Wij zorgen voor de technische oplossing.
 
-De frames kunnen ook vrijstaand en dubbelzijdig worden geleverd waardoor ze als scheidingswanden op kantoren, reclamepanelen en wayfinding in gebouwen kunnen worden toegepast.
+De frames kunnen ook vrijstaand en dubbelzijdig worden geleverd waardoor ze als scheidingswanden op kantoren, reclamepanelen en wayfinding in gebouwen kunnen worden toegepast. 
+
+Last but not least, de frames kunnen natuurlijk ook worden voorzien van LED verlichting. Info hierover vindt u in de catagorie "Lightboxen".
 
 ![](/assets/img/decap/blaadje-groen-2.png)
 
