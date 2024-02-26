@@ -18,6 +18,6 @@ De frames kunnen ook vrijstaand en dubbelzijdig worden geleverd waardoor ze als 
 
 ![](/assets/img/decap/blaadje-groen-2.png)
 
-Ook op het gebied van de textielframes staan de ontwikkelingen niet stil. Hoewel aluminium een belasting is van grondstoffen, kunnen de profielen wel heel goed worden gerecycled
+Ook op het gebied van de textielframes staan de ontwikkelingen niet stil. Hoewel aluminium een belasting is van grondstoffen, kunnen de profielen wel heel goed worden gerecycled. Liever gebruik maken van meer natuurlijke materialen, dat kan ook want de ontwikkelingen met profielen van hout en gerecycled kunststof staan ook niet stil. Informeer naar de mogelijkheden bij onze specialisten. 
 
 ![](/assets/img/decap/srt-profielen.png)
