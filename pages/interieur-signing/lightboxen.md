@@ -15,3 +15,5 @@ Reclame-uitingen, wayfinding en bedrijfslogo's vallen veel meer op als deze word
 Door onze jarenlange ervaring en eigen productie kunnen uw design omzetten maar een prachtinge verlichte reclame.
 
 ![](/assets/img/decap/blaadje-groen-2.png)
+
+Ook op het gebied van lightboxen staan de ontwikkelingen niet stil. Hoewel aluminium een belasting is van grondstoffen, kunnen de profielen wel heel goed worden gerecycled. Liever gebruik maken van meer natuurlijke materialen, dat kan ook want de ontwikkelingen met profielen van hout en gerecycled kunststof staan ook niet stil. Voor de verlichting worden altijd de meest energiezuinige LED's gebruikt en worden, in overleg met de fabrikant, continue verbeteringen qua energieverbruik en lichtopbrengst doorgevoerd. Informeer naar de mogelijkheden bij onze specialisten.
