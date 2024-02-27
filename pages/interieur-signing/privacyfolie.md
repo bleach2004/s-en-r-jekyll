@@ -21,4 +21,4 @@ Voor een meer natuurlijke uitstraling kunnen we ook een geweven stof met natuurl
 
 Natuurlijk zijn op het gebied van privacy folie ook verschillende ontwikkelingen om de footprint te verminderen en gebruik te maken van circulaire materialen. Bepaalde materialen zijn al PVC-vrij leverbaar.
 
-Natural Surfaces is een wallcoverings-product wat voor 100% bestaat uit natuurlijke materialen, met de hand gemaakt op een zelfklevende laag. Denk aan bladeren, gedroogde bloemen en andere natuurlijke materialen. Zelfs de geur kunt u ervaren. Vraag bij onze specialisten naar de mogelijkheden.
+Natural Surfaces is een folie-product wat voor 100% bestaat uit natuurlijke materialen, met de hand gemaakt op een zelfklevende laag. Denk aan bladeren, gedroogde bloemen en andere natuurlijke materialen. Zelfs de geur kunt u ervaren. Vraag bij onze specialisten naar de mogelijkheden.
