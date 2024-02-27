@@ -12,9 +12,7 @@ carousel_images:
 ---
 Wallcovering of fotobehang wordt toegepast om wanden te voorzien van de meest spectaculaire afbeeldingen. De creatieve vrijheid is onbeperkt. Van sfeerbeelden tot huisstijlen, alles is mogelijk. Wallcovering kan opgebouwd worden uit banen maar kan ook naadloos en wel tot een formaat van 4,9 mtr hoogte tot een lengte van wel 50 mtr. Er is een scala aan materialen beschikbaar met elk hun unieke structuur en eigenschappen.
 
-Het doel van de ruimte, de ondergrond, het formaat en wensen qua structuur zijn bepalend voor de keuze van het materiaal. Zo kan een grove structuur kan bijvoorbeeld uitkomst bieden bij een wand de niet perfect glad is en bij een natte ruimte bij een kinderdagverblijf of andere openbare ruimte, kan behoefte zijn aan vuil- en 
-
-vochtafstotende eigenschappen. Denk aan een gladde folieprint voorzien van een transparant laminaat.
+Het doel van de ruimte, de ondergrond, het formaat en wensen qua structuur zijn bepalend voor de keuze van het materiaal. Zo kan een grove structuur kan bijvoorbeeld uitkomst bieden bij een wand de niet perfect glad is en bij een natte ruimte bij een kinderdagverblijf of andere openbare ruimte, kan behoefte zijn aan vuil- en vochtafstotende eigenschappen. Denk aan een gladde folieprint voorzien van een transparant laminaat.
 
 Ook is het mogelijk om de akoestiek te verbeteren door gebruik te maken van geluidsabsorberende materialen met natuurlijk weer een mooi sfeerbeeld of logo.
 
