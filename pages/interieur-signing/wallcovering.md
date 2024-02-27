@@ -23,3 +23,5 @@ Als onze materialen zijn voorzien van een B1 brandveiligheids certificaat.
 Natuurlijk zijn op het gebied van wallcovering ook verschillende ontwikkelingen om de footprint te verminderen en gebruik te maken van circulaire materialen. Bepaalde materialen zijn al PVC-vrij leverbaar of materialen die gemaakt zijn van gerecycled polyester. 
 
 Natural Surfaces is een wallcoverings-product wat voor 100% bestaat uit natuurlijke materialen, met de hand gemaakt op een zelfklevende laag. Denk aan bladeren, gedroogde bloemen en andere natuurlijke materialen. Zelfs de geur kunt u ervaren. Vraag bij onze specialisten naar de mogelijkheden.
+
+![](/assets/img/decap/natural-surface.png)
