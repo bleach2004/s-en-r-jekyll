@@ -15,3 +15,5 @@ Privacy folie is de perfecte manier om het nuttige met het aangename te combiner
 De mogelijkheden zijn eindeloos. Van effen zandstraalfolie als volvlak of gesneden patroon tot aan semi transparante geprinte sfeerbeelden of logo's. 
 
 Voor een meer natuurlijke uitstraling kunnen we ook een geweven stof met natuurlijke uitstraling leveren in verschillende dessins. Deze worden op maat gesneden en zijn voorzien van een zelfklevende lijnlaag.
+
+![](/assets/img/decap/blaadje-groen-2.png)
