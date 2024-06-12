@@ -19,3 +19,5 @@ De toepassing van deze folies is erg breed. Denk aan het restylen van wanden, ta
 
 
 ![](/assets/img/decap/blaadje-groen-2.png "Natuurlijk is restylen van bestaande meubelen en wanden een goede keuze als het gaat om circulair gebruik van materialen.")
+
+Natuurlijk is restylen van bestaande meubelen en wanden een goede keuze als het gaat om circulair gebruik van materialen.
