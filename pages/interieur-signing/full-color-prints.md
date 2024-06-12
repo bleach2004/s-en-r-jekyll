@@ -18,4 +18,4 @@ Door onze verschillende full-color printers, kunnen wij op heel veel printmedia 
 
 Veel materialen zijn beprintbaar en dus is het goed mogelijk om ook hier in "groene keuze"in te maken. Op het gebied van zelfklevende- en banner materialen zijn er al veel PVC-vrije producten. Ook printen op gerecyclede kunststoffen zoals Pet-vilt en re-board is mogelijk.
 
-Informeer bij onze productspecialist.
+Informeer bij onze product specialist.
