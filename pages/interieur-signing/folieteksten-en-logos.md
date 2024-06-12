@@ -6,7 +6,6 @@ category: Interieur Signing
 carousel_images:
   - /assets/img/decap/hema.png
   - /assets/img/decap/personal-trainer-.png
-  - /assets/img/decap/de-rooy.png
   - /assets/img/decap/trap-sticker-.png
   - /assets/img/decap/ortho-png.png
   - /assets/img/decap/wit-met-bank.jpg
