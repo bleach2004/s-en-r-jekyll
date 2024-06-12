@@ -14,10 +14,8 @@ Interieurfolies zijn hoogwaardige folies, verkrijgbaar in allerlei structuren, f
 
 De toepassing van deze folies is erg breed. Denk aan het restylen van wanden, tafels, kasten, keukens maar ook lockerdeurtjes en balie's. De folies zijn speciaal ontworpen voor zware belasting en kunnen tegen een stootje.
 
-![]()
 
 
-
-![](/assets/img/decap/blaadje-groen-2.png "Natuurlijk is restylen van bestaande meubelen en wanden een goede keuze als het gaat om circulair gebruik van materialen.")
+![](/assets/img/decap/blaadje-groen-2.png)
 
 Natuurlijk is restylen van bestaande meubelen en wanden een goede keuze als het gaat om circulair gebruik van materialen.
