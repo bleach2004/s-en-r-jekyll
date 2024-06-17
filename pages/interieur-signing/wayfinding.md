@@ -9,6 +9,7 @@ carousel_images:
   - /assets/img/decap/ns.png
   - /assets/img/decap/foto-12.jpg
   - /assets/img/decap/ns-fietsenstalling.png
+  - /assets/img/decap/20210705_125056.jpg
 ---
 Bewegwijzering is een belangrijk fysiek element in wayfinding. Bordjes, stickers, palen, paddenstoelen, zuilen, verlichte elementen, deze kunnen allemaal bijdragen aan de routing binnen een gebouw. Het is van belang om een strategie te ontwikkelen, om in de schoenen van uw bezoeker te gaan staan en op die manier naar uw gebouw te kijken. 
 
