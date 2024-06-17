@@ -1,27 +1,27 @@
 ---
-title: interieur-signing
-layout: interieur-signing
-permalink: /interieur-signing.html/
 Freesletters:
-  - /assets/img/portfolio/Peesframes/Hunter-Douglas-1-1536x864.jpg
+  - /assets/img/decap/design.png
 LED letters:
-  - /assets/img/portfolio/Peesframes/Hunter-Douglas-1-1536x864.jpg
+  - /assets/img/decap/swatch.png
 Peesframes:
-  - /assets/img/portfolio/Peesframes/Hunter-Douglas-1-1536x864.jpg
+  - /assets/img/decap/janzen.png
 Lightboxen:
-  - /assets/img/portfolio/Peesframes/Hunter-Douglas-1-1536x864.jpg
+  - /assets/img/decap/kwantum.png
 Wallcovering:
-  - /assets/img/portfolio/Peesframes/Hunter-Douglas-1-1536x864.jpg
+  - /assets/img/decap/intratuin.png
 Privacyfolie:
-  - /assets/img/portfolio/Peesframes/Hunter-Douglas-1-1536x864.jpg
+  - /assets/img/decap/grape-district-002.jpg
 Interieurfolie's:
-  - /assets/img/portfolio/Peesframes/Hunter-Douglas-1-1536x864.jpg
+  - /assets/img/decap/bbie_20200311_hema_190.jpg
 Meubelrestyle:
   - /assets/img/portfolio/Peesframes/Hunter-Douglas-1-1536x864.jpg
 Full-color prints:
-  - /assets/img/portfolio/Peesframes/Hunter-Douglas-1-1536x864.jpg
+  - /assets/img/decap/koningshoek.png
+layout: interieur-signing
+permalink: /interieur-signing.html/
 Folieteksten en logo's:
-  - /assets/img/portfolio/Peesframes/Hunter-Douglas-1-1536x864.jpg
+  - /assets/img/decap/kybun.png
+title: interieur-signing
 Wayfinding:
-  - /assets/img/portfolio/Peesframes/Hunter-Douglas-1-1536x864.jpg
+  - /assets/img/decap/personal-trainer-.png
 ---
