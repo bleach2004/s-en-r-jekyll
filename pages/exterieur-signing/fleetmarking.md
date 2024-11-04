@@ -16,10 +16,8 @@ Ook op het gebied van snijfolie's en full-colorprints staan de ontwikkelingen ni
 
 Niet onbelangrijk is natuurlijk het ontwerp. Uw logo of bedrijfsboodschap moet goed en duidelijk tot uiting komen en het gehele design moet ook de aandacht trekken.
 
-![](/assets/img/decap/blaadje-groen.png)
+![](/assets/img/decap/blaadje-groen-2.png)
 
 Steeds meer folie's zijn ook leverbaar als PVC vrij. Hierdoor kan er ook een milieu verantwoorde keuze worden gemaakt.
-
-
 
 Informeer naar de creatieve en technische mogelijkheden bij onze specialisten.
