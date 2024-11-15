@@ -10,5 +10,8 @@ carousel_images:
   - /assets/img/decap/owndays.png
   - /assets/img/decap/yoo.png
 ---
+Lichtreclame is in vele uitvoeringen leverbaar. De welbekende lichtbak aan de gevel maar ook de haakse uitsteker. Doosletters geven een wat luxere uitstraling en kunnen zowel aan de gevel als op het dak worden geplaatst.
 
-Lichtreclame
+Uitlichting naar de voorzijde of als back-lite tegen de gevel geeft uw reclame de maximale exposure. Natuurlijk is al onze verlichting uitgevoerd met energiezuinige LED's.
+
+Informeer naar de mogelijkheden en wij geven u een advies op maat!
