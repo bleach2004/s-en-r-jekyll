@@ -8,5 +8,6 @@ carousel_images:
   - /assets/img/decap/de-boer-zuil.png
   - /assets/img/decap/interforce-zuil.png
 ---
+Reclamezuilen kunnen wij geheel custom-made produceren en voorzien van inwendige verlichting of aanlichten met grondspots. Standaard worden materialen gebruikt als aluminium en kunststofplaten maar u kunt ook denken aan hout en gerecyclede materialen. 
 
-title: Reclamezuilen
+Informeer naar de mogelijkheden bij onze product specialisten.
