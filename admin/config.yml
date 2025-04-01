@@ -18,7 +18,7 @@ backend:
     openAuthoring: Message {{message}} - {{author-name}} <{{author-login}}> via DecapBridge
 
 # Better Decap + Bridge logo (optional)
-logo_url: assets/img/logo.svg
+logo_url: https://s-en-r-jekyll.vercel.app/assets/img/logo.svg
 
 # Add site links in DecapCMS (optional)
 site_url: https://s-en-r-jekyll.vercel.app
