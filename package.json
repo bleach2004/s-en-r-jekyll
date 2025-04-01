@@ -1,7 +1,6 @@
 {
   "dependencies": {
     "@splidejs/splide": "^4.1.4",
-    "@tinacms/cli": "^1.5.30",
     "decap-cms-app": "^3.0.9"
   },
   "devDependencies": {
