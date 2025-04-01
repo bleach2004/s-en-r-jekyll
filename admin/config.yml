@@ -4,6 +4,8 @@ backend:
   name: git-gateway
   repo: bleach2004/s-en-r-jekyll
   branch: main
+  identity_url: https://auth.decapbridge.com/sites/76c60861-8023-411e-8d07-63254cbed163
+  gateway_url: https://gateway.decapbridge.com
 
 media_folder: "assets/img/decap"
 collections:
