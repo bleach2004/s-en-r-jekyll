@@ -26,102 +26,33 @@
     <link rel="stylesheet" href="{{site.baseurl}}/css/styles.css" />
   </head>
 
-  <body class="page-body">
-    <div class="container-flex landingpage-container h-100 w-100">
-      <div class="row gx-0 align-items-center h-100 w-100">
-        <div class="col pt-4 my-auto mx-auto">
-          <div
-            class="mt-5 mb-md-5 mb-4 header-text text-center text-shadow"
-            style="color: white"
-          >
-            {{ content }}
-          </div>
+  <body class="page-body d-flex flex-column">
 
-          <div class="row justify-content-center text-center">
-            <div class="col-md-auto col-12 order-md-first">
-              <a
-                href="interieur-signing.html"
-                class="btngreen btnlarge btnshadow text-nowrap"
-                >Interieur signing</a
-              >
+
+
+          {% include navbar.html %}
+
+          <div class="flex-grow-1 d-flex align-items-center">
+            <div class="container text-center">
+              <!-- Your centered content -->
+              <div class="mb-md-5 mb-4 header-text text-shadow" style="color: white">
+                {{ content }}
+              </div>
+              
+              <div class="row justify-content-center g-3">
+                <div class="col-md-auto col-12">
+                  <a href="interieur-signing.html" class="btngreen btnlarge btnshadow text-nowrap">
+                    Interieur signing
+                  </a>
+                </div>
+                <div class="col-md-auto col-12">
+                  <a href="exterieur-signing.html" class="btngreen btnlarge btnshadow text-nowrap">
+                    Exterieur signing
+                  </a>
+                </div>
+              </div>
             </div>
-            <div class="col-md-auto mt-3 mt-md-0 col-12">
-              <a
-                href="exterieur-signing.html"
-                class="btngreen btnlarge btnshadow text-nowrap"
-                >Exterieur signing</a
-              >
-            </div>
           </div>
-        </div>
-      </div>
-    </div>
-
-    <nav class="navbar navbar-custom navbar-expand-lg navbar-dark">
-      <div class="container">
-        <a class="navbar-brand" href="./index.html">
-          <img class="nav-logo" src="assets/img/logo.svg" />
-        </a>
-
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarSupportedContent"
-        >
-          <ul class="navbar-nav navbar-nav-custom mb-2 mb-lg-0">
-            {% for item in site.data.pagelist.toc %}
-
-            <li class="nav-item text-nowrap px-3 dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="Interieursigning.html"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                {{ item.title }}
-              </a>
-              <ul class="dropdown-menu">
-                {% for entry in item.subfolderitems %}
-                <li>
-                  <a class="dropdown-item" href="{{ entry.url }}"
-                    >{{ entry.page }}</a
-                  >
-                </li>
-                {% endfor %}
-              </ul>
-            </li>
-            {% endfor %}
-
-            <li class="nav-item text-nowrap px-3">
-              <a class="nav-link" href="./over-ons.html">Over ons</a>
-            </li>
-            <li class="nav-item text-nowrap px-3">
-              <a class="nav-link" href="./nieuws.html">Nieuws</a>
-            </li>
-            <li class="nav-item text-nowrap px-3">
-              <a class="nav-link" href="./Contact.html">Contact</a>
-            </li>
-            <li class="nav-item ps-lg-4 pl-3 d-flex align-items-center">
-              <a href="{{site.baseurl}}/over-ons.html#milieu">
-                <img class="leaf" src="{{site.baseurl}}/assets/leaf.svg" />
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"

@@ -1,0 +1,62 @@
+<nav class="navbar navbar-custom navbar-expand-lg navbar-dark">
+  <div class="container-fluid h-100 px-lg-5">
+    <a class="navbar-brand" href="{{ site.baseurl }}/">
+      <img class="nav-logo" src="{{ site.baseurl }}/assets/img/logo.svg" />
+    </a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav navbar-nav-custom mb-2 mb-lg-0">
+        {% for item in site.data.pagelist.toc %}
+          <li class="nav-item text-nowrap px-3 dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              {{ item.title }}
+            </a>
+            <ul class="dropdown-menu">
+              {% for entry in item.subfolderitems %}
+                <li>
+                  <a class="dropdown-item" href="{{ site.baseurl }}{{ entry.url }}">
+                    {{ entry.page }}
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+          </li>
+        {% endfor %}
+
+        <!-- Static links (unchanged structure) -->
+        <li class="nav-item text-nowrap px-3">
+          <a class="nav-link" href="{{ site.baseurl }}/over-ons.html">Over ons</a>
+        </li>
+        <li class="nav-item text-nowrap px-3">
+          <a class="nav-link" href="{{ site.baseurl }}/nieuws.html">Nieuws</a>
+        </li>
+        <li class="nav-item text-nowrap px-3">
+          <a class="nav-link" href="{{ site.baseurl }}/Contact.html">Contact</a>
+        </li>
+        <li class="nav-item px-3 d-flex align-items-center">
+            <a class="nav-link d-flex align-items-center" href="{{ site.baseurl }}/over-ons.html#milieu">
+              <img class="leaf" src="{{ site.baseurl }}/assets/leaf.svg" style="height: 1.25rem;" />
+            </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

@@ -15,14 +15,14 @@ toc:
         url: /privacyfolie.html
       - page: Interieurfolie's
         url: /interieurfolies.html
-      - page: Meubelrestyle
-        url: /meubelrestyle.html
       - page: Full-color prints
         url: /full-color-prints.html
       - page: Folieteksten en logo's
         url: /folieteksten-en-logos.html
       - page: Wayfinding
         url: /wayfinding.html
+      - page: Akoestisch PET-vilt
+        url: /akoestisch-pet-vilt.html
 
   - title: Exterieur Signing
     subfolderitems:

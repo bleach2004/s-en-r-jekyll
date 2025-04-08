@@ -13,7 +13,6 @@ Privacyfolie:
   - /assets/img/decap/grape-district-002.jpg
 Interieurfolie's:
   - /assets/img/decap/bbie_20200311_hema_190.jpg
-Meubelrestyle: /assets/img/decap/bbie_20200311_hema_190.jpg
 Full-color prints:
   - /assets/img/decap/koningshoek.png
 layout: interieur-signing
