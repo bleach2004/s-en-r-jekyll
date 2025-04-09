@@ -10,8 +10,6 @@ carousel_images:
   - /assets/img/decap/ziggo.png
   - /assets/img/decap/longines.png
 ---
-
-
 Bedrijfslogo's en merknamen kunnen worden uitgevoerd als LED letters en uit diverse materialen worden geproduceerd. Door verlichting aan te brengen in letters en logo's wordt de attentiewaarde verhoogd. Toepassingsgebieden zijn bedrijfslogo's, wayfinding, slogans en allerlei decoratieve toepassingen.
 
 LED verlichting kan worden ingebouwd in freesletters en doosletters en ook in verschillende uitlichtingsvormen.
@@ -34,5 +32,9 @@ Mede door onze productie in eigenhuis, houden we de footprint van onze producten
 *Hoe kunnen we u helpen?*
 
 Bent u op zoek naar letters en logo's met LED verlichting , neem dan contact op met onze specialisten.
+
+
+
+Test!
 
 ![](/assets/img/decap/doos-en-freesletter-3-lettercontour.png)
