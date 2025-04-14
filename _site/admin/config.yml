@@ -94,6 +94,7 @@ collections:
               widget: "image",
             }
           - { label: "Wayfinding", name: "Wayfinding", widget: "image" }
+          - { label: "Akoestisch PET-vilt", name: "Akoestisch PET-vilt", widget: "image" }
       - label: "Exterieur signing"
         name: "exterieur-signing"
         file: "pages/exterieur-signing.md"
