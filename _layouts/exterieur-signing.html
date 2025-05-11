@@ -28,15 +28,14 @@
     {% include navbar.html %}
 
     <div class="bg content-stretch">
-      <div class="container-flex mx-4">
-        <div class="row">
-          <div class="row">
+      <div class="d-flex">
+          <div class="row mx-4">
             {% assign desiredSectionTitle = "Exterieur Signing" %} {% for
             section in site.data.pagelist.toc %} {% if section.title ==
             desiredSectionTitle %}
             <div class="menu-section">
-              <h2 class="mb-4">{{section.title }}</h2>
               <div class="row">
+                <h2 class="mb-4">{{section.title }}</h2>
                 {% for item in section.subfolderitems %}
                 <div
                   class="col-12 col-sm-6 col-lg-2 col-md-4 d-flex mb-2 justify-content-lg-start justify-content-center"

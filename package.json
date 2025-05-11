@@ -1,9 +1,15 @@
 {
   "dependencies": {
     "@splidejs/splide": "^4.1.4",
-    "decap-cms-app": "^3.0.9"
+    "decap-cms-app": "^3.6.2",
+    "embla-carousel": "^8.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/node": "^20.8.4"
+  },
+  "overrides": {
+    "trim": "^0.0.3"
   }
 }

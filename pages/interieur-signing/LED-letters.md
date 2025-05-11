@@ -1,7 +1,7 @@
 ---
 title: LED letters en logo's
 layout: product
-permalink: /LED-letters.html/
+permalink: /led-letters.html/
 category: Interieur Signing
 carousel_images:
   - /assets/img/decap/swatch.png

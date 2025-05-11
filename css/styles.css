@@ -596,55 +596,116 @@ img.selectie-img {
 }
 
 /* carousel */
-#productCarousel {
-  width: 100%; /* Adjust the width as needed */
+
+.embla {
+  overflow: hidden;
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+.embla__viewport {
+  overflow: hidden;
+  width: 100%;
+}
+.embla__container {
+  display: flex;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.embla__slide {
+  position: relative;
+  flex: 0 0 100%;
+  min-width: 0;
+}
+.embla__slide__inner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 350px; /* Fixed height instead of aspect ratio */
+  background-color: #ffffff; /* Light background for images with transparency */
+}
+.embla__slide__img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;    /* Allow image to maintain its natural width/height ratio */
+  height: auto;   /* Allow image to maintain its natural width/height ratio */
+  object-fit: contain; /* Show entire image without cropping */
 }
 
-.carousel-item img {
-  object-fit: cover; /* Maintain aspect ratio and cover the area */
-
-  height: 300px; /* Adjust the height as needed */
-  width: 450px;
+/* Thumbnail styles - now horizontal scrollable */
+.embla-thumbs {
+  overflow: hidden;
+  margin-top: 10px;
+}
+.embla-thumbs__viewport {
+  overflow: hidden;
+  width: 100%;
+}
+  
+.embla-thumbs__container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap; /* Key change: prevent wrapping */
+  gap: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.embla-thumbs__slide {
+  flex: 0 0 auto;
+  min-width: 0;
+  width: 80px; /* Fixed width for thumbnails */
+}
+.embla-thumbs__slide__button {
+  background-color: transparent;
+  touch-action: manipulation;
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  opacity: 0.5;
+  transition: opacity 0.2s ease;
+}
+.embla-thumbs__slide--selected .embla-thumbs__slide__button {
+  opacity: 1;
+}
+.embla-thumbs__slide__inner {
+  position: relative;
+  height: 60px; /* Fixed height for thumbnails */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+.embla-thumbs__slide__img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
 }
 
-@media (max-width: 992px) {
-  .carousel-item img {
-    height: auto; /* Allow the height to adjust based on the image's aspect ratio */
-    width: 100%; /* Make the image fill the width of the parent container */
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  .embla__slide__inner {
+    height: 250px; /* Smaller height on mobile */
+  }
+  
+  .embla-thumbs__slide {
+    width: 70px; /* Slightly smaller on mobile */
+  }
+  
+  .embla-thumbs__slide__inner {
+    height: 50px; /* Smaller height on mobile */
   }
 }
 
-
-
-.carousel-image {
-  width: 500px;
-}
-
-.thumbnail-container {
-  display: flex;
-  justify-content: left;
-  margin-top: 20px;
-}
-
-.thumbnail {
-  margin-right: 5px; /* Adjust margin as needed */
-}
-
-.thumbnail img {
-  width: 80px;
-  height: 50px;
-  object-fit: cover;
-  cursor: pointer;
-}
-
-.thumbnail img.active {
-  border: 2px solid var(--green); /* Border for the active thumbnail */
-}
-
-/* Optional: Style the active thumbnail differently */
-.thumbnail img:hover {
-  border: 2px solid var(--green); /* Border on hover */
-}
 /* buttons */
 
 .btngreen {

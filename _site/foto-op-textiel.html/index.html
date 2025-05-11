@@ -193,7 +193,7 @@
           <a class="nav-link" href="/nieuws.html">Nieuws</a>
         </li>
         <li class="nav-item text-nowrap px-3">
-          <a class="nav-link" href="/Contact.html">Contact</a>
+          <a class="nav-link" href="/contact.html">Contact</a>
         </li>
         <li class="nav-item px-3 d-flex align-items-center">
             <a class="nav-link d-flex align-items-center" href="/over-ons.html#milieu">
@@ -210,34 +210,36 @@
       <div class="bg pb-4">
         <div class="container">
           <div class="row">
-            <div class="col-lg-5 col-12 mt-3">
-              <div
-                id="productCarousel"
-                class="carousel slide mx-auto mx-md-0"
-                data-ride="carousel"
-              >
-                <div class="carousel-inner">
-                  
-                  <div
-                    class="carousel-item active"
-                  >
-                    <img src="/assets/img/decap/ns-houten-bak-met-sticker.png" alt="Carousel Image" />
+            <div class="col-lg-5 col-12 mt-3 px-4">
+
+              <div class="embla">
+                <div class="embla__viewport">
+                  <div class="embla__container">
+                    
+                    <div class="embla__slide">
+                      <div class="embla__slide__inner">
+                        <img src="/assets/img/decap/ns-houten-bak-met-sticker.png" alt="Carousel Image" class="embla__slide__img">
+                      </div>
+                    </div>
+                    
                   </div>
-                  
                 </div>
               </div>
-  
-              <div class="thumbnail-container mt-3">
-                
-                <div class="thumbnail">
-                  <img
-                    src="/assets/img/decap/ns-houten-bak-met-sticker.png"
-                    alt="Thumbnail"
-                    data-slide-to="1"
-                    style="cursor: pointer"
-                  />
+              
+              <div class="embla-thumbs mt-3">
+                <div class="embla-thumbs__viewport">
+                  <div class="embla-thumbs__container">
+                    
+                    <div class="embla-thumbs__slide">
+                      <button class="embla-thumbs__slide__button">
+                        <div class="embla-thumbs__slide__inner">
+                          <img src="/assets/img/decap/ns-houten-bak-met-sticker.png" alt="Thumbnail" class="embla-thumbs__slide__img">
+                        </div>
+                      </button>
+                    </div>
+                    
+                  </div>
                 </div>
-                
               </div>
   
               <div class="col order-lg-3 d-block d-lg-none text-center mt-3">
@@ -290,27 +292,74 @@ class="d-flex flex-wrap align-items-center justify-content-center border-top"
       crossorigin="anonymous"
     ></script>
 
-    <script>
-      const thumbnails = document.querySelectorAll(".thumbnail img");
-      let isCarouselAnimating = false;
-
-      thumbnails.forEach((thumbnail, index) => {
-        thumbnail.addEventListener("click", () => {
-          if (!isCarouselAnimating) {
-            isCarouselAnimating = true;
-            const carousel = new bootstrap.Carousel(
-              document.getElementById("productCarousel")
-            );
-            carousel.to(index);
-          }
-        });
-      });
-
-      document
-        .getElementById("productCarousel")
-        .addEventListener("slid.bs.carousel", () => {
-          isCarouselAnimating = false;
-        });
+    <script type="module">
+      import EmblaCarousel from 'https://cdn.jsdelivr.net/npm/embla-carousel@7.0.0/embla-carousel.esm.js';
+    
+      const setupEmblaCarousel = () => {
+        // Main carousel
+        const mainNode = document.querySelector('.embla');
+        const mainViewport = mainNode.querySelector('.embla__viewport');
+        const mainOptions = { loop: true, skipSnaps: false };
+        const mainCarousel = EmblaCarousel(mainViewport, mainOptions);
+    
+        // Thumbnails - now with horizontal scroll
+        const thumbsNode = document.querySelector('.embla-thumbs');
+        const thumbsViewport = thumbsNode.querySelector('.embla-thumbs__viewport');
+        const thumbsOptions = { 
+          dragFree: true,
+          containScroll: 'keepSnaps',
+          axis: 'x',  // Explicitly set horizontal scrolling
+          slidesToScroll: 1
+        };
+        const thumbsCarousel = EmblaCarousel(thumbsViewport, thumbsOptions);
+    
+        // Bind thumbnails to main carousel
+        const syncThumbsToMain = (emblaMain, emblaThumb) => {
+          const slideThumbs = (index) => {
+            if (!emblaThumb.clickAllowed()) return;
+            emblaMain.scrollTo(index);
+          };
+    
+          const thumbNodes = emblaThumb.slideNodes();
+          thumbNodes.forEach((thumbNode, index) => {
+            thumbNode.addEventListener('click', () => slideThumbs(index));
+          });
+        };
+    
+        // Update selected thumbnail and scroll to it
+        const updateSelectedThumb = (emblaMain, emblaThumb) => {
+          const updateThumb = () => {
+            const previous = document.querySelector('.embla-thumbs__slide--selected');
+            if (previous) previous.classList.remove('embla-thumbs__slide--selected');
+            
+            const index = emblaMain.selectedScrollSnap();
+            const thumbNodes = emblaThumb.slideNodes();
+            
+            if (thumbNodes[index]) {
+              thumbNodes[index].classList.add('embla-thumbs__slide--selected');
+              
+              // Scroll the thumbnail into view
+              emblaThumb.scrollTo(index);
+            }
+          };
+    
+          emblaMain.on('select', updateThumb);
+          updateThumb(); // Initialize
+        };
+    
+        // Setup both carousels when they exist
+        if (mainCarousel && thumbsCarousel) {
+          syncThumbsToMain(mainCarousel, thumbsCarousel);
+          updateSelectedThumb(mainCarousel, thumbsCarousel);
+        }
+      };
+    
+      // Run when DOM is ready
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', setupEmblaCarousel);
+      } else {
+        setupEmblaCarousel();
+      }
     </script>
   </body>
 </html>
