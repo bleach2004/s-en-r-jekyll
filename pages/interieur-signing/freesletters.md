@@ -5,7 +5,7 @@ permalink: /freesletters.html/
 category: Interieur Signing
 carousel_images:
   - /assets/img/decap/starbucks.png
-  - /assets/img/decap/afbeelding-van-whatsapp-op-2024-12-04-om-14.33.25_f49d6e33.jpg
+  - /assets/img/decap/koning-in-college.png
   - /assets/img/decap/design.png
   - /assets/img/decap/nio-png.png
   - /assets/img/decap/docspropng.png
