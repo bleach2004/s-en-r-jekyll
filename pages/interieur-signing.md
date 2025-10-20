@@ -1,27 +1,27 @@
 ---
-layout: interieur-signing
-permalink: /interieur-signing.html/
 Freesletters:
-  - /assets/img/decap/design.png
+  - /assets/img/decap/starbucks.png
 LED letters:
   - /assets/img/decap/swatch.png
 Peesframes:
-  - /assets/img/decap/janzen.png
+  - /assets/img/decap/riverdale.png
 Lightboxen:
-  - /assets/img/decap/kwantum.png
+  - /assets/img/decap/matt-sleepss.png
 Wallcovering:
-  - /assets/img/decap/intratuin.png
+  - /assets/img/decap/fortune.png
 Privacyfolie:
-  - /assets/img/decap/grape-district-002.jpg
+  - /assets/img/decap/univar.png
 Interieurfolie's:
   - /assets/img/decap/bbie_20200311_hema_190.jpg
-Full-color prints:
-  - /assets/img/decap/koningshoek.png
+Meubelrestyle: /assets/img/decap/20220607_121431.jpg
+Full-color prints: /assets/img/decap/souffle-cafe.jpeg
+layout: interieur-signing
+permalink: /interieur-signing.html/
 Folieteksten en logo's:
-  - /assets/img/decap/kybun.png
+  - /assets/img/decap/tesla.png
 title: interieur-signing
 Wayfinding:
-  - /assets/img/decap/personal-trainer-.png
+  - /assets/img/decap/koning-in-college.png
 Akoestisch PET-vilt:
-  - /assets/img/decap/personal-trainer-.png
+  - /assets/img/decap/geprint-pet-vilt-tchai.png
 ---
