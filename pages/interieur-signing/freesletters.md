@@ -6,8 +6,8 @@ category: Interieur Signing
 carousel_images:
   - /assets/img/decap/starbucks.png
   - /assets/img/decap/koning-in-college.png
-  - /assets/img/decap/design.png
-  - /assets/img/decap/nio-png.png
+  - /assets/img/decap/ns-wand.png
+  - /assets/img/decap/real-madrid-logo.png
   - /assets/img/decap/docspropng.png
 ---
 
