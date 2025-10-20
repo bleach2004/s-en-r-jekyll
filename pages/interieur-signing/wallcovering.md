@@ -9,6 +9,7 @@ carousel_images:
   - /assets/img/decap/ronde-wand.png
   - /assets/img/decap/zund.png
   - /assets/img/decap/de-mol.png
+  - /assets/img/decap/plus.png
 ---
 Wallcovering of fotobehang wordt toegepast om wanden te voorzien van de meest spectaculaire afbeeldingen. De creatieve vrijheid is onbeperkt. Van sfeerbeelden tot huisstijlen, alles is mogelijk. Wallcovering kan opgebouwd worden uit banen maar kan ook naadloos en wel tot een formaat van 4,9 mtr hoogte tot een lengte van wel 50 mtr. Er is een scala aan materialen beschikbaar met elk hun unieke structuur en eigenschappen.
 
