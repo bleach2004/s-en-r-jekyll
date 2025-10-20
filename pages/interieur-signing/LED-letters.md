@@ -5,7 +5,7 @@ permalink: /led-letters.html/
 category: Interieur Signing
 carousel_images:
   - /assets/img/decap/swatch.png
-  - /assets/img/decap/niu-logo.png
+  - /assets/img/decap/20220607_121431.jpg
   - /assets/img/decap/luxaflex.png
   - /assets/img/decap/ziggo.png
   - /assets/img/decap/longines.png
