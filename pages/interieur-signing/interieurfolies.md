@@ -9,6 +9,7 @@ carousel_images:
   - /assets/img/decap/tafel.png
   - /assets/img/decap/keuken-deurtjes.png
   - /assets/img/decap/hema.jpg
+  - /assets/img/decap/plaat-in-rvs-look.png
 ---
 Interieurfolies zijn hoogwaardige folies, verkrijgbaar in allerlei structuren, finishes, kleuren en stijlen. Denk bijvoorbeeld aan houtstructuur, beton look of natuursteen look. Ook de structuren zijn voelbaar door het aangebrachte reliëf. Naast de prachtige "kant en klare" folies, zijn er ook printable interieurfolies die kunnen worden voorzien van een laminaat met een glans, zijdeglans of matte uitstraling.
 
