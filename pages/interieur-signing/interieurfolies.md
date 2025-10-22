@@ -1,5 +1,5 @@
 ---
-title: Style & Restyle Interieurfolie's
+title: Interieurfolie's
 layout: product
 permalink: /interieurfolies.html/
 category: Interieur Signing
