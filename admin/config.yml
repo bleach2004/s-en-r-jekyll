@@ -71,9 +71,9 @@ collections:
         name: "interieur-signing"
         file: "pages/interieur-signing.md"
         fields:
-          - { label: "Freesletters", name: "Freesletters", widget: "image" }
-          - { label: "LED letters", name: "LED letters", widget: "image" }
-          - { label: "Peesframes", name: "Peesframes", widget: "image" }
+          - { label: "3D letters en logo's", name: "3D letters en logo's", widget: "image" }
+          - { label: "LED letters en logo's", name: "LED letters en logo's", widget: "image" }
+          - { label: "SRT-textielframes", name: "SRT-textielframes", widget: "image" }
           - { label: "Lightboxen", name: "Lightboxen", widget: "image" }
           - { label: "Wallcovering", name: "Wallcovering", widget: "image" }
           - { label: "Privacyfolie", name: "Privacyfolie", widget: "image" }
@@ -87,7 +87,7 @@ collections:
               name: "Full-color prints",
               widget: "image",
             }
-          - {
+          - { 
               label: "Folieteksten en logo's",
               name: "Folieteksten en logo's",
               widget: "image",
