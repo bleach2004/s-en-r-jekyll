@@ -5,8 +5,11 @@ LED letters en logo's:
   - /assets/img/decap/swatch.png
 SRT-textielframes:
   - /assets/img/decap/riverdale.png
-Lightboxen:
-  - /assets/img/decap/matt-sleepss.png
+layout: interieur-signing
+permalink: /interieur-signing.html/
+3D letters en logo's: /assets/img/decap/starbucks.png
+SRT-textielframes: /assets/img/decap/riverdale.png
+Meubelrestyle: /assets/img/decap/20220607_121431.jpg
 Wallcovering:
   - /assets/img/decap/fortune.png
 Privacyfolie:
@@ -20,6 +23,10 @@ Full-color prints:
 Folieteksten en logo's:
   - /assets/img/decap/tesla.png
 title: interieur-signing
+LED letters:
+  - /assets/img/decap/swatch.png
+Lightboxen:
+  - /assets/img/decap/matt-sleepss.png
 Wayfinding:
   - /assets/img/decap/koning-in-college.png
 Akoestisch PET-vilt:
