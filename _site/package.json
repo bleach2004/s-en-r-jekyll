@@ -1,4 +1,9 @@
+
 {
+  "engines": {
+    "node": "22.x"
+  },
+  
   "dependencies": {
     "@splidejs/splide": "^4.1.4",
     "decap-cms-app": "^3.6.2",
