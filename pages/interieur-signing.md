@@ -1,4 +1,8 @@
 ---
+layout: interieur-signing
+permalink: /interieur-signing.html/
+title: interieur-signing
+
 3D letters en logo's: /assets/img/decap/starbucks.png
 LED letters en logo's: /assets/img/decap/swatch.png
 SRT-textielframes: /assets/img/decap/riverdale.png
