@@ -1,7 +1,7 @@
 ---
 title: SRT-textielframes
 layout: product
-permalink: /peesframes.html/
+permalink: /SRT-textielframes.html/
 category: Interieur Signing
 carousel_images:
   - /assets/img/decap/riverdale.png

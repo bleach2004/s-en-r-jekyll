@@ -1,7 +1,7 @@
 ---
 title: 3D letters en logo's
 layout: product
-permalink: /freesletters.html/
+permalink: /3D-letters-en-logos.html/
 category: Interieur Signing
 carousel_images:
   - /assets/img/decap/starbucks.png
