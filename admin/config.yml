@@ -1,116 +1,104 @@
-# config.yml
+  # config.yml
 
-# Use DecapBridge auth (required)
-backend:
-  name: git-gateway
-  repo: bleach2004/s-en-r-jekyll
-  branch: main
-  identity_url: https://auth.decapbridge.com/sites/76c60861-8023-411e-8d07-63254cbed163
-  gateway_url: https://gateway.decapbridge.com
+  # Use DecapBridge auth (required)
+  backend:
+    name: git-gateway
+    repo: bleach2004/s-en-r-jekyll
+    branch: main
+    identity_url: https://auth.decapbridge.com/sites/76c60861-8023-411e-8d07-63254cbed163
+    gateway_url: https://gateway.decapbridge.com
 
-  # Quickly see who did what (optional)
-  commit_messages:
-    create: Create {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge
-    update: Update {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge
-    delete: Delete {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge
-    uploadMedia: Upload “{{path}}” - {{author-name}} <{{author-login}}> via DecapBridge
-    deleteMedia: Delete “{{path}}” - {{author-name}} <{{author-login}}> via DecapBridge
-    openAuthoring: Message {{message}} - {{author-name}} <{{author-login}}> via DecapBridge
+    # Quickly see who did what (optional)
+    commit_messages:
+      create: Create {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge
+      update: Update {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge
+      delete: Delete {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge
+      uploadMedia: Upload “{{path}}” - {{author-name}} <{{author-login}}> via DecapBridge
+      deleteMedia: Delete “{{path}}” - {{author-name}} <{{author-login}}> via DecapBridge
+      openAuthoring: Message {{message}} - {{author-name}} <{{author-login}}> via DecapBridge
 
-# Better Decap + Bridge logo (optional)
-logo_url: https://s-en-r-jekyll.vercel.app/assets/img/logo.svg
+  # Better Decap + Bridge logo (optional)
+  logo_url: https://s-en-r-jekyll.vercel.app/assets/img/logo.svg
 
-# Add site links in DecapCMS (optional)
-site_url: https://s-en-r-jekyll.vercel.app
+  # Add site links in DecapCMS (optional)
+  site_url: https://s-en-r-jekyll.vercel.app
 
-media_folder: "assets/img/decap"
-collections:
-  - name: "interieur-signing"
-    editor:
-      preview: false
-    label: "Interieur signing"
-    folder: "pages/interieur-signing"
-    fields:
-      - { name: title }
-      - { label: "Beschrijving", name: "body", widget: "markdown" }
-      - label: "Gallery"
-        name: "carousel_images"
-        widget: "list"
-        field: { label: Afbeelding, name: image, widget: image }
+  media_folder: "assets/img/decap"
+  collections:
+    - name: "interieur-signing" 
+      editor:
+        preview: false
+      label: "Interieur signing"
+      folder: "pages/interieur-signing"
+      fields:
+        - { name: title }
+        - { label: "Beschrijving", name: "body", widget: "markdown" }
+        - label: "Gallery"
+          name: "carousel_images"
+          widget: "list"
+          field: { label: Afbeelding, name: image, widget: image }
 
-  - name: "exterieur-signing"
-    editor:
-      preview: false
-    label: "Exterieur signing"
-    folder: "pages/exterieur-signing"
-    fields:
-      - { name: title }
-      - { label: "Beschrijving", name: "body", widget: "markdown" }
-      - label: "Gallery"
-        name: "carousel_images"
-        widget: "list"
-        field: { label: Afbeelding, name: image, widget: image }
+    - name: "exterieur-signing"
+      editor:
+        preview: false
+      label: "Exterieur signing"
+      folder: "pages/exterieur-signing"
+      fields:
+        - { name: title }
+        - { label: "Beschrijving", name: "body", widget: "markdown" }
+        - label: "Gallery"
+          name: "carousel_images"
+          widget: "list"
+          field: { label: Afbeelding, name: image, widget: image }
 
-  - label: "Single pages"
-    name: "pages"
-    editor:
-      preview: false
-    files:
-      - label: "Over ons"
-        name: "over-ons"
-        file: "pages/over-ons.md"
+    - label: "Single pages"
+      name: "pages"
+      editor:
+        preview: false
+      files:
+        - label: "Over ons"
+          name: "over-ons"
+          file: "pages/over-ons.md"
 
-        fields:
-          - { name: title }
-          - { label: "Header", name: "header", widget: "string" }
-          - { label: "Kop 1", name: "kop-1", widget: "string" }
-          - { label: "Tekst 1", name: "tekst-1", widget: "string" }
-          - { label: "Kop 2", name: "kop-2", widget: "string" }
-          - { label: "Tekst 2", name: "tekst-2", widget: "string" }
-      - label: "Interieur signing"
-        name: "interieur-signing"
-        file: "pages/interieur-signing.md"
-        fields:
-          - { label: "3D letters en logo's", name: "3D letters en logo's", widget: "image" }
-          - { label: "LED letters en logo's", name: "LED letters en logo's", widget: "image" }
-          - { label: "SRT-textielframes", name: "SRT-textielframes", widget: "image" }
-          - { label: "Lightboxen", name: "Lightboxen", widget: "image" }
-          - { label: "Wallcovering", name: "Wallcovering", widget: "image" }
-          - { label: "Privacyfolie", name: "Privacyfolie", widget: "image" }
-          - {
-              label: "Interieurfolie's",
-              name: "Interieurfolie's",
-              widget: "image",
-            }
-          - {
-              label: "Full-color prints",
-              name: "Full-color prints",
-              widget: "image",
-            }
-          - { 
-              label: "Folieteksten en logo's",
-              name: "Folieteksten en logo's",
-              widget: "image",
-            }
-          - { label: "Wayfinding", name: "Wayfinding", widget: "image" }
-          - { label: "Akoestisch PET-vilt", name: "Akoestisch PET-vilt", widget: "image" }
-      - label: "Exterieur signing"
-        name: "exterieur-signing"
-        file: "pages/exterieur-signing.md"
-        fields:
-          - {
-              label: "Gevelbelettering",
-              name: "Gevelbelettering",
-              widget: "image",
-            }
-          - { label: "LED letters", name: "LED letters", widget: "image" }
-          - { label: "Lichtreclame", name: "Lichtreclame", widget: "image" }
-          - { label: "Reclamezuilen", name: "Reclamezuilen", widget: "image" }
-          - { label: "Raamstikkers", name: "Raamstikkers", widget: "image" }
-          - { label: "Bewegwijzering", name: "Bewegwijzering", widget: "image" }
-          - {
-              label: "Spandoeken en vlaggen",
-              name: "Spandoeken en vlaggen",
-              widget: "image",
-            }
-          - { label: "Fleetmarking", name: "Fleetmarking", widget: "image" }
+          fields:
+            - { name: title }
+            - { label: "Header", name: "header", widget: "string" }
+            - { label: "Kop 1", name: "kop-1", widget: "string" }
+            - { label: "Tekst 1", name: "tekst-1", widget: "string" }
+            - { label: "Kop 2", name: "kop-2", widget: "string" }
+            - { label: "Tekst 2", name: "tekst-2", widget: "string" }
+        - label: "Interieur signing"
+          name: "interieur-signing"
+          file: "pages/interieur-signing.md"
+          fields:
+            - { label: "Title", name: "title", widget: "string" }
+            - { label: "Layout", name: "layout", widget: "hidden", default: "interieur-signing" }
+            - { label: "Permalink", name: "permalink", widget: "string", default: "/interieur-signing.html/" }
+            - { label: "3D letters en logo's", name: "3D letters en logo's", widget: "image" }
+            - { label: "LED letters en logo's", name: "LED letters en logo's", widget: "image" }
+            - { label: "SRT-textielframes", name: "SRT-textielframes", widget: "image" }
+            - { label: "Meubelrestyle", name: "Meubelrestyle", widget: "image" }
+            - { label: "Wallcovering", name: "Wallcovering", widget: "image" }
+            - { label: "Privacyfolie", name: "Privacyfolie", widget: "image" }
+            - { label: "Interieurfolie's", name: "Interieurfolie's", widget: "image" }
+            - { label: "Full-color prints", name: "Full-color prints", widget: "image" }
+            - { label: "Folieteksten en logo's", name: "Folieteksten en logo's", widget: "image" }
+            - { label: "Lightboxen", name: "Lightboxen", widget: "image" }
+            - { label: "Wayfinding", name: "Wayfinding", widget: "image" }
+            - { label: "Akoestisch PET-vilt", name: "Akoestisch PET-vilt", widget: "image" }
+        - label: "Exterieur signing"
+          name: "exterieur-signing"
+          file: "pages/exterieur-signing.md"
+          fields:
+            - { label: "Title", name: "title", widget: "string" }
+            - { label: "Layout", name: "layout", widget: "hidden", default: "exterieur-signing" }
+            - { label: "Permalink", name: "permalink", widget: "string", default: "/exterieur-signing.html/" }
+            - { label: "LED letters", name: "LED letters", widget: "image" }
+            - { label: "Gevelbelettering", name: "Gevelbelettering", widget: "image" }
+            - { label: "Lichtreclame", name: "Lichtreclame", widget: "image" }
+            - { label: "Reclamezuilen", name: "Reclamezuilen", widget: "image" }
+            - { label: "Fleetmarking", name: "Fleetmarking", widget: "image" }
+            - { label: "Raamstikkers", name: "Raamstikkers", widget: "image" }
+            - { label: "Bewegwijzering", name: "Bewegwijzering", widget: "image" }
+            - { label: "Spandoeken en vlaggen", name: "Spandoeken en vlaggen", widget: "image" }
+
