@@ -1,5 +1,5 @@
 ---
-title: 3D letters en logo's
+title: 3D letters en logo's 
 layout: product
 permalink: /3D-letters-en-logos.html/
 category: Interieur Signing
