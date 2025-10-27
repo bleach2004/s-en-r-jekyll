@@ -30,30 +30,33 @@
     <div class="bg content-stretch">
       <div class="d-flex">
           <div class="row mx-4">
-            {% assign desiredSectionTitle = "Interieur Signing" %} {% for
-            section in site.data.pagelist.toc %} {% if section.title ==
-            desiredSectionTitle %}
-            <div class="menu-section">
-              <div class="row">
-                <h2 class="mb-4">{{section.title }}</h2>
-                {% for item in section.subfolderitems %}
-                <div
-                  class="col-12 col-sm-6 col-lg-2 col-md-4 d-flex mb-2 justify-content-lg-start justify-content-center"
-                >
-                  <div class="selectie-div selectie-img img-column">
-                    <a href="{{ item.url }}">
-                      <img
-                        class="img-fluid img-thumbnail w-100 selectie-img"
-                        src="{{ page[item.page][0] }}"
-                      />
-                      <p class="selectie-text text-center">{{ item.page }}</p>
-                    </a>
+            {% assign desiredSectionTitle = "Interieur Signing" %}
+            {% for section in site.data.pagelist.toc %}
+              {% if section.title == desiredSectionTitle %}
+                <div class="menu-section">
+                  <div class="row">
+                    <h2 class="mb-4">{{ section.title }}</h2>
+            
+                    {% for item in section.subfolderitems %}
+                      {% assign images = page[item.page] %}
+                      {% for img in images %}
+                        <div class="col-12 col-sm-6 col-lg-2 col-md-4 d-flex mb-2 justify-content-lg-start justify-content-center">
+                          <div class="selectie-div selectie-img img-column">
+                            <a href="{{ item.url }}">
+                              <img class="img-fluid img-thumbnail w-100 selectie-img"
+                                   src="{{ site.baseurl }}/{{ img.image }}"
+                                   alt="{{ item.page }}" />
+                              <p class="selectie-text text-center">{{ item.page }}</p>
+                            </a>
+                          </div>
+                        </div>
+                      {% endfor %}
+                    {% endfor %}
+            
                   </div>
                 </div>
-                {% endfor %}
-              </div>
-            </div>
-            {% endif %} {% endfor %}
+              {% endif %}
+            {% endfor %}            
           </div>
         </div>
       </div>
