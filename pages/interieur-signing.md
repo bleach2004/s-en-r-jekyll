@@ -1,6 +1,7 @@
 ---
 layout: interieur-signing
 permalink: /interieur-signing.html/
+title: interieur-signing
 
 3D Letters en logo's:
   - /assets/img/decap/starbucks.png
@@ -26,7 +27,6 @@ Full-color prints:
  - /assets/img/decap/souffle-cafe.jpeg
 Folieteksten en logo's:
   - /assets/img/decap/tesla.png
-title: interieur-signing
 LED letters:
   - /assets/img/decap/swatch.png
 Lightboxen:
