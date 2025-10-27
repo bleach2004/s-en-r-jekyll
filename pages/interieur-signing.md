@@ -1,15 +1,19 @@
 ---
+layout: interieur-signing
+permalink: /interieur-signing.html/
+
 3D Letters en logo's:
   - /assets/img/decap/starbucks.png
 LED letters en logo's:
   - /assets/img/decap/swatch.png
 SRT-textielframes:
   - /assets/img/decap/riverdale.png
-layout: interieur-signing
-permalink: /interieur-signing.html/
-3D letters en logo's: /assets/img/decap/starbucks.png
-SRT-textielframes: /assets/img/decap/riverdale.png
-Meubelrestyle: /assets/img/decap/20220607_121431.jpg
+3D letters en logo's: 
+  - /assets/img/decap/starbucks.png
+SRT-textielframes: 
+  - /assets/img/decap/riverdale.png
+Meubelrestyle: 
+  - /assets/img/decap/20220607_121431.jpg
 Wallcovering:
   - /assets/img/decap/fortune.png
 Privacyfolie:
@@ -31,7 +35,4 @@ Wayfinding:
   - /assets/img/decap/koning-in-college.png
 Akoestisch PET-vilt:
   - /assets/img/decap/geprint-pet-vilt-tchai.png
-
-layout: interieur-signing
-permalink: /interieur-signing.html/
 ---
