@@ -25,26 +25,36 @@ collections:
     editor:
       preview: false
     folder: "pages/interieur-signing"
+    create: true
+    slug: "{{slug}}"
     fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Permalink", name: "permalink", widget: "string" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "product" }
       - { label: "Beschrijving", name: "body", widget: "markdown" }
       - label: "Gallery"
         name: "carousel_images"
         widget: "list"
         allow_add: true
-        default: []
+        field: { label: "Image", name: "image", widget: "image" }
 
   - name: "exterieur-signing"
     label: "Exterieur signing"
     editor:
       preview: false
     folder: "pages/exterieur-signing"
+    create: true
+    slug: "{{slug}}"
     fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Permalink", name: "permalink", widget: "string" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "product" }
       - { label: "Beschrijving", name: "body", widget: "markdown" }
       - label: "Gallery"
         name: "carousel_images"
         widget: "list"
         allow_add: true
-        default: []
+        field: { label: "Image", name: "image", widget: "image" }
 
   - label: "Single pages"
     name: "pages"
