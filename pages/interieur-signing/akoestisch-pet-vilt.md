@@ -24,3 +24,5 @@ maar ook het v-gravering van de panelen met doorlopende patronen wordt veel toeg
 
 Vraag vrijblijvend onze online PET-vilt brochure aan of neem
 contact op met een van onze specialisten.
+
+![](/assets/img/decap/blaadje-groen-2.png)
