@@ -4,10 +4,10 @@ permalink: /akoestisch-pet-vilt.html/
 layout: product
 category: Interieur Signing
 carousel_images:
-  - /assets/img/decap/geprint-pet-vilt-tchai.png
-  - /assets/img/decap/fortune-v-gravering.png
+  - /assets/img/decap/pet-vilt-b-r-foamcompany.jpg
   - /assets/img/decap/geprint-pet-vilt-b-r.png
   - /assets/img/decap/koning-in-college.png
+  - /assets/img/decap/pet-vilt-b-r-foamcompany-2-.jpg
   - /assets/img/decap/tchai-geprint-pet-vilt.png
 ---
 Maak kennis met ons akoestisch pet-vilt. Dit materiaal is de
