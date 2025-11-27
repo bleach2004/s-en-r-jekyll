@@ -27,24 +27,22 @@
   <body class="page-body body-flex">
     {% include navbar.html %}
 
-    <div class="bg content-stretch">
-      <div class="d-flex">
+      <div class="bg content-stretch">
+        <div class="d-flex">
           <div class="row mx-4">
-            {% assign desiredSectionTitle = "Exterieur Signing" %} {% for
-            section in site.data.pagelist.toc %} {% if section.title ==
-            desiredSectionTitle %}
+            {% assign desiredSectionTitle = "Exterieur Signing" %} 
+            {% for section in site.data.pagelist.toc %} 
+            {% if section.title == desiredSectionTitle %}
             <div class="menu-section">
               <div class="row">
-                <h2 class="mb-4">{{section.title }}</h2>
+                <h2 class="mb-4">{{ section.title }}</h2>
                 {% for item in section.subfolderitems %}
-                <div
-                  class="col-12 col-sm-6 col-lg-2 col-md-4 d-flex mb-2 justify-content-lg-start justify-content-center"
-                >
-                  <div class="selectie-div selectie-img img-column">
-                    <a href="{{ item.url }}">
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex mb-2 justify-content-lg-start justify-content-center">                  <div class="selectie-div selectie-img img-column">
+                    <a href="{{ site.baseurl }}{{ item.url }}">
                       <img
                         class="img-fluid img-thumbnail w-100 selectie-img"
-                        src="{{ page[item.page][0] }}"
+                        src="{{ site.baseurl }}{{ page[item.page] }}"
+                        alt="{{ item.page }}"
                       />
                       <p class="selectie-text text-center">{{ item.page }}</p>
                     </a>
@@ -53,7 +51,8 @@
                 {% endfor %}
               </div>
             </div>
-            {% endif %} {% endfor %}
+            {% endif %} 
+            {% endfor %}
           </div>
         </div>
       </div>

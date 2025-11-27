@@ -2,8 +2,7 @@
 layout: exterieur-signing
 permalink: /exterieur-signing.html/
 title: exterieur-signing
-
-LED letters: /assets/img/decap/foto-6.jpg
+LED letters: /assets/img/decap/starbucks.png
 Gevelbelettering: /assets/img/decap/personal-trainer.png
 Lichtreclame: /assets/img/decap/laque.png
 Reclamezuilen: /assets/img/decap/r-g.png

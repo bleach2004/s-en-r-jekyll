@@ -25,26 +25,36 @@ collections:
     editor:
       preview: false
     folder: "pages/interieur-signing"
+    create: true
+    slug: "{{slug}}"
     fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Permalink", name: "permalink", widget: "string" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "product" }
       - { label: "Beschrijving", name: "body", widget: "markdown" }
       - label: "Gallery"
         name: "carousel_images"
         widget: "list"
         allow_add: true
-        default: []
+        field: { label: "Image", name: "image", widget: "image" }
 
   - name: "exterieur-signing"
     label: "Exterieur signing"
     editor:
       preview: false
     folder: "pages/exterieur-signing"
+    create: true
+    slug: "{{slug}}"
     fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Permalink", name: "permalink", widget: "string" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "product" }
       - { label: "Beschrijving", name: "body", widget: "markdown" }
       - label: "Gallery"
         name: "carousel_images"
         widget: "list"
         allow_add: true
-        default: []
+        field: { label: "Image", name: "image", widget: "image" }
 
   - label: "Single pages"
     name: "pages"
@@ -67,6 +77,7 @@ collections:
         fields:
           - { label: "Layout", name: "layout", widget: "hidden", default: "interieur-signing" }
           - { label: "Permalink", name: "permalink", widget: "hidden", default: "/interieur-signing.html/" }
+          - { label: "Title", name: "title", widget: "hidden", default: "interieur-signing" }
           - { label: "3D letters en logo's", name: "3D letters en logo's", widget: "image" }
           - { label: "LED letters en logo's", name: "LED letters en logo's", widget: "image" }
           - { label: "SRT-textielframes", name: "SRT-textielframes", widget: "image" }
@@ -85,6 +96,7 @@ collections:
         fields:
           - { label: "Layout", name: "layout", widget: "hidden", default: "exterieur-signing" }
           - { label: "Permalink", name: "permalink", widget: "hidden", default: "/exterieur-signing.html/" }
+          - { label: "Title", name: "title", widget: "hidden", default: "exterieur-signing" }
           - { label: "LED letters", name: "LED letters", widget: "image" }
           - { label: "Gevelbelettering", name: "Gevelbelettering", widget: "image" }
           - { label: "Lichtreclame", name: "Lichtreclame", widget: "image" }
