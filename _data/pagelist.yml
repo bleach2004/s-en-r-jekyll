@@ -1,28 +1,29 @@
 toc:
   - title: Interieur Signing
     subfolderitems:
+      - page: Wallcovering
+        url: /wallcovering.html
+      - page: SRT-textielframes
+        url: /SRT-textielframes.html
+      - page: Akoestisch PET-vilt
+        url: /akoestisch-pet-vilt.html
+      - page: Interieurfolie's
+        url: /interieurfolies.html
       - page: 3D letters en logo's
         url: /3D-letters-en-logos.html
       - page: LED letters en logo's
         url: /LED-letters-en-logos.html
-      - page: SRT-textielframes
-        url: /SRT-textielframes.html
       - page: Lightboxen
         url: /lightboxen.html
-      - page: Wallcovering
-        url: /wallcovering.html
       - page: Privacyfolie
         url: /privacyfolie.html
-      - page: Interieurfolie's
-        url: /interieurfolies.html
       - page: Full-color prints
         url: /full-color-prints.html
       - page: Folieteksten en logo's
         url: /folieteksten-en-logos.html
       - page: Wayfinding
         url: /wayfinding.html
-      - page: Akoestisch PET-vilt
-        url: /akoestisch-pet-vilt.html
+
 
   - title: Exterieur Signing
     subfolderitems:
