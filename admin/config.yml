@@ -53,13 +53,13 @@ collections:
     files:
       - label: "Over ons"
         name: "over-ons"
-        file: "pages/over-ons.md"
+        file: "pages/single-pages/over-ons.md"
         fields:
           - { label: "Header", name: "header", widget: "string" }
           - { label: "Kop 1", name: "kop-1", widget: "string" }
-          - { label: "Tekst 1", name: "tekst-1", widget: "string" }
+          - { label: "Tekst 1", name: "tekst-1", widget: "markdown" }
           - { label: "Kop 2", name: "kop-2", widget: "string" }
-          - { label: "Tekst 2", name: "tekst-2", widget: "string" }
+          - { label: "Tekst 2", name: "tekst-2", widget: "markdown" }
 
       - label: "Interieur signing"
         name: "interieur-signing"
