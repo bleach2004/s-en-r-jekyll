@@ -11,11 +11,6 @@ tekst-1: S&R Sign en Reclame is een reclamebedrijf gericht op specials in
   enthousiaste mensen die elke dag met plezier aan de slag gaan. Wij werken voor
   hele grote en kleine klanten en alles daartussenin. U bent dus altijd van
   harte welkom om kennis te maken met ons.
-kop-2: circulair ondernemerschap
-tekst-2: Bij ons staat circulair ondernemerschap hoog in het vaandel. We
-  proberen zo veel mogelijk materialen te kiezen die herbruikbaar of recyclebaar
-  zijn. Door de juiste adviezen van onze specialisten worden er materialen
-  gekozen met een lange levensduur om verspilling te minimaliseren. Zo proberen
-  we bij te dragen aan een toekomst waarin creativiteit, vakmanschap en
-  duurzaamheid hand in hand gaan.
+kop-2: .
+tekst-2: .
 ---
