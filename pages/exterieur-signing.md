@@ -9,5 +9,4 @@ Reclamezuilen: /assets/img/decap/r-g.png
 Fleetmarking: /assets/img/decap/bartens.png
 Raamstikkers: /assets/img/decap/plus.png
 Bewegwijzering: /assets/img/decap/20180801_103158.jpg
-Spandoeken en vlaggen: /assets/img/portfolio/Peesframes/Hunter-Douglas-1-1536x864.jpg
 ---
