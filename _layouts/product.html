@@ -100,24 +100,21 @@
       import EmblaCarousel from 'https://cdn.jsdelivr.net/npm/embla-carousel@7.0.0/embla-carousel.esm.js';
     
       const setupEmblaCarousel = () => {
-        // Main carousel
         const mainNode = document.querySelector('.embla');
         const mainViewport = mainNode.querySelector('.embla__viewport');
         const mainOptions = { loop: true, skipSnaps: false };
         const mainCarousel = EmblaCarousel(mainViewport, mainOptions);
     
-        // Thumbnails - now with horizontal scroll
         const thumbsNode = document.querySelector('.embla-thumbs');
         const thumbsViewport = thumbsNode.querySelector('.embla-thumbs__viewport');
         const thumbsOptions = { 
           dragFree: true,
           containScroll: 'keepSnaps',
-          axis: 'x',  // Explicitly set horizontal scrolling
+          axis: 'x',
           slidesToScroll: 1
         };
         const thumbsCarousel = EmblaCarousel(thumbsViewport, thumbsOptions);
     
-        // Bind thumbnails to main carousel
         const syncThumbsToMain = (emblaMain, emblaThumb) => {
           const slideThumbs = (index) => {
             if (!emblaThumb.clickAllowed()) return;
@@ -130,7 +127,6 @@
           });
         };
     
-        // Update selected thumbnail and scroll to it
         const updateSelectedThumb = (emblaMain, emblaThumb) => {
           const updateThumb = () => {
             const previous = document.querySelector('.embla-thumbs__slide--selected');
@@ -142,23 +138,20 @@
             if (thumbNodes[index]) {
               thumbNodes[index].classList.add('embla-thumbs__slide--selected');
               
-              // Scroll the thumbnail into view
               emblaThumb.scrollTo(index);
             }
           };
     
           emblaMain.on('select', updateThumb);
-          updateThumb(); // Initialize
+          updateThumb();
         };
     
-        // Setup both carousels when they exist
         if (mainCarousel && thumbsCarousel) {
           syncThumbsToMain(mainCarousel, thumbsCarousel);
           updateSelectedThumb(mainCarousel, thumbsCarousel);
         }
       };
     
-      // Run when DOM is ready
       if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', setupEmblaCarousel);
       } else {

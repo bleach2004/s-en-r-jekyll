@@ -1,0 +1,17 @@
+{
+  "name": "Jekyll Workspace",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  },
+  "mounts": [
+    "source=${localWorkspaceFolder},target=/site,type=bind"
+  ],
+  "postCreateCommand": "bundle install || true"
+}
