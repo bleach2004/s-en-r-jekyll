@@ -59,7 +59,7 @@ jobs:
           log-level: verbose
 
           local-dir: ./_site/
-          server-dir: ../
+          server-dir: ./
           exclude: |
             **/.git*
             **/.github*
