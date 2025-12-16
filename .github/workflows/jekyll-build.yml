@@ -54,8 +54,6 @@ jobs:
           protocol: ftps
           port: 21
 
-          security: loose
-          timeout: 60000
           log-level: verbose
 
           local-dir: ./_site/
@@ -65,4 +63,3 @@ jobs:
             **/.github*
             **/README.md
 
-## force
