@@ -12,5 +12,4 @@ Full-color prints: /assets/img/decap/souffle-cafe.jpeg
 Folieteksten en logo's: /assets/img/decap/tesla.png
 Lightboxen: /assets/img/decap/matt-sleepss.png
 Wayfinding: /assets/img/decap/koning-in-college.png
-Akoestisch PET-vilt: /assets/img/decap/pet-vilt-b-r-foamcompany.jpg
 ---
